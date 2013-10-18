@@ -13,11 +13,15 @@ var partyController = (function() {
 
 	//get all the states
 	PartyController.prototype.get = function(req, res){
+		res.send('TODO - PartyController:get');
+
 	}
 
 
 	//get all the constituencies
 	PartyController.prototype.getConstituencies = function(req, res){
+		res.send('TODO - PartyController:getConstituencies');
+
 	}
 
 

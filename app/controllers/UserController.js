@@ -15,12 +15,16 @@ var userController = (function() {
 
 	UserController.prototype.get = function(req, res){
 		AppLogger.info('UserController:get');
+		res.send('TODO - UserController:get');
+
 
 	}
 
 	//todo use promise.js instead of this structure - the callbacks are messy...
 	UserController.prototype.post = function(req, res){
 		AppLogger.info('UserController:post');
+		res.send('TODO - UserController:post');
+
 
 	}
 

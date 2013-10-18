@@ -118,7 +118,7 @@
       <file leaf-file-name="PartyController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/PartyController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="125" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="22" column="58" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -126,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoliticianController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PoliticianController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="5" selection-start="1375" selection-end="1375" vertical-scroll-proportion="2.2317073">
+            <state line="28" column="13" selection-start="508" selection-end="555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthorizationController.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AuthorizationController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/AuthorizationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+            <state line="26" column="14" selection-start="501" selection-end="501" vertical-scroll-proportion="0.69512194">
               <folding />
             </state>
           </provider>
@@ -176,7 +176,7 @@
       <file leaf-file-name="UserController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+            <state line="25" column="18" selection-start="568" selection-end="610" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -204,12 +204,12 @@
         <option value="$PROJECT_DIR$/app/controllers/CommentController.js" />
         <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
-        <option value="$PROJECT_DIR$/app/controllers/AuthorizationController.js" />
-        <option value="$PROJECT_DIR$/app/controllers/PartyController.js" />
-        <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
         <option value="$PROJECT_DIR$/app/controllers/StateController.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/PoliticianController.js" />
+        <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
+        <option value="$PROJECT_DIR$/app/controllers/PartyController.js" />
+        <option value="$PROJECT_DIR$/app/controllers/AuthorizationController.js" />
       </list>
     </option>
   </component>
@@ -624,20 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="106" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AuthorizationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/CommentController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="4" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
@@ -648,24 +634,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/StateController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="57" selection-start="531" selection-end="531" vertical-scroll-proportion="0.90909094">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/PartyController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="125" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -690,7 +658,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="5" selection-start="1375" selection-end="1375" vertical-scroll-proportion="2.2317073">
+        <state line="28" column="13" selection-start="508" selection-end="555" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="568" selection-end="610" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/PartyController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="58" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="106" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthorizationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="501" selection-end="501" vertical-scroll-proportion="0.69512194">
           <folding />
         </state>
       </provider>

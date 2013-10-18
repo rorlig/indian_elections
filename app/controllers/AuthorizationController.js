@@ -24,6 +24,7 @@ var authorization_controller = (function() {
 	//assigns the role for a user to a particular event
 	//roles are checkedInUser or notCheckedInUser
 	AuthorizationController.prototype.isAuthorized = function (req,res,next) {
+		//todo
 		next();
 	}
 
