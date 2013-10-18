@@ -1,0 +1,622 @@
+2013-10-18T06:38:14.185Z - info: Connecting to the sqlite db
+2013-10-18T06:38:14.235Z - info: Reading models 
+2013-10-18T06:38:14.235Z - info: Syncing the database
+2013-10-18T06:38:50.909Z - info: Connecting to the sqlite db
+2013-10-18T06:38:50.957Z - info: Reading models 
+2013-10-18T06:39:21.764Z - info: Connecting to the sqlite db
+2013-10-18T06:39:21.817Z - info: Reading models 
+2013-10-18T06:39:39.917Z - info: Connecting to the sqlite db
+2013-10-18T06:39:39.968Z - info: Reading models 
+2013-10-18T06:41:06.803Z - info: Connecting to the sqlite db
+2013-10-18T06:41:06.853Z - info: Reading models 
+2013-10-18T06:41:26.757Z - info: Connecting to the sqlite db
+2013-10-18T06:41:26.807Z - info: Reading models 
+2013-10-18T06:42:34.469Z - info: Connecting to the sqlite db
+2013-10-18T06:42:34.518Z - info: Reading models 
+2013-10-18T06:42:34.518Z - info: fileName is Award.js
+2013-10-18T06:42:34.518Z - info: fileName is Constituency.js
+2013-10-18T06:42:34.518Z - info: fileName is Party.js
+2013-10-18T06:42:34.518Z - info: fileName is Politician.js
+2013-10-18T06:42:34.518Z - info: fileName is Rating.js
+2013-10-18T06:42:34.518Z - info: fileName is State.js
+2013-10-18T06:42:34.519Z - info: fileName is User.js
+2013-10-18T06:42:34.519Z - info: Syncing the database
+2013-10-18T06:42:44.861Z - info: Connecting to the sqlite db
+2013-10-18T06:42:44.911Z - info: Reading models 
+2013-10-18T06:42:44.911Z - info: fileName is Award.js
+2013-10-18T06:43:34.949Z - info: Connecting to the sqlite db
+2013-10-18T06:43:34.998Z - info: Reading models 
+2013-10-18T06:43:34.998Z - info: fileName is Award.js
+2013-10-18T06:45:28.894Z - info: Connecting to the sqlite db
+2013-10-18T06:45:28.944Z - info: Reading models 
+2013-10-18T06:45:28.944Z - info: fileName is Award.js
+2013-10-18T06:45:56.718Z - info: Connecting to the sqlite db
+2013-10-18T06:45:56.774Z - info: Reading models 
+2013-10-18T06:45:56.775Z - info: fileName is Award.js
+2013-10-18T06:46:09.239Z - info: Connecting to the sqlite db
+2013-10-18T06:46:09.287Z - info: Reading models 
+2013-10-18T06:46:09.288Z - info: fileName is Award.js
+2013-10-18T06:46:46.611Z - info: Connecting to the sqlite db
+2013-10-18T06:46:46.661Z - info: Reading models 
+2013-10-18T06:46:46.661Z - info: fileName is Award.js
+2013-10-18T07:00:55.419Z - info: Connecting to the sqlite db
+2013-10-18T07:01:01.500Z - info: Connecting to the sqlite db
+2013-10-18T07:01:16.227Z - info: Connecting to the sqlite db
+2013-10-18T07:01:16.277Z - info: fileName is Award.js
+2013-10-18T07:01:36.799Z - info: Connecting to the sqlite db
+2013-10-18T07:01:36.852Z - info: fileName is Award.js
+2013-10-18T07:01:56.679Z - info: Connecting to the sqlite db
+2013-10-18T07:01:56.728Z - info: fileName is Award.js
+2013-10-18T07:02:31.265Z - info: Connecting to the sqlite db
+2013-10-18T07:02:31.314Z - info: fileName is Award.js
+2013-10-18T07:04:12.118Z - info: Connecting to the sqlite db
+2013-10-18T07:04:12.166Z - info: fileName is Award.js
+2013-10-18T07:04:26.177Z - info: Connecting to the sqlite db
+2013-10-18T07:04:26.228Z - info: fileName is Award.js
+2013-10-18T07:04:52.125Z - info: Connecting to the sqlite db
+2013-10-18T07:04:52.175Z - info: fileName is Award.js
+2013-10-18T07:05:01.872Z - info: Connecting to the sqlite db
+2013-10-18T07:05:01.924Z - info: fileName is Award.js
+2013-10-18T07:05:25.861Z - info: Connecting to the sqlite db
+2013-10-18T07:05:25.912Z - info: fileName is Award.js
+2013-10-18T07:07:16.517Z - info: Connecting to the sqlite db
+2013-10-18T07:07:16.568Z - info: fileName is Award.js
+2013-10-18T07:10:19.436Z - info: Connecting to the sqlite db
+2013-10-18T07:10:19.485Z - info: Reading models 
+2013-10-18T07:10:19.529Z - info: Syncing the database
+2013-10-18T07:12:42.538Z - info: Connecting to the sqlite db
+2013-10-18T07:12:42.587Z - info: Reading models 
+2013-10-18T07:12:58.265Z - info: Connecting to the sqlite db
+2013-10-18T07:12:58.318Z - info: Reading models 
+2013-10-18T07:13:20.306Z - info: Connecting to the sqlite db
+2013-10-18T07:13:20.355Z - info: Reading models 
+2013-10-18T07:13:41.057Z - info: Connecting to the sqlite db
+2013-10-18T07:13:41.107Z - info: Reading models 
+2013-10-18T07:13:41.124Z - info: Syncing the database
+2013-10-18T07:13:46.577Z - info: Connecting to the sqlite db
+2013-10-18T07:13:46.626Z - info: Reading models 
+2013-10-18T07:13:46.644Z - info: Syncing the database
+2013-10-18T07:13:51.659Z - info: Connecting to the sqlite db
+2013-10-18T07:13:51.708Z - info: Reading models 
+2013-10-18T07:13:51.725Z - info: Syncing the database
+2013-10-18T07:14:01.431Z - info: Connecting to the sqlite db
+2013-10-18T07:14:01.493Z - info: Reading models 
+2013-10-18T07:14:01.510Z - info: Syncing the database
+2013-10-18T15:45:53.888Z - info: Connecting to the sqlite db
+2013-10-18T15:45:54.122Z - info: Reading models 
+2013-10-18T15:45:54.161Z - info: Syncing the database
+2013-10-18T15:47:02.011Z - info: Connecting to the sqlite db
+2013-10-18T15:47:02.064Z - info: Reading models 
+2013-10-18T15:47:02.081Z - info: Syncing the database
+2013-10-18T15:55:45.794Z - info: Connecting to the sqlite db
+2013-10-18T15:55:45.846Z - info: Reading models 
+2013-10-18T15:55:45.846Z - info: fileName is Award.js
+2013-10-18T15:55:45.960Z - info: Connecting to the sqlite db
+2013-10-18T15:56:45.394Z - info: Connecting to the sqlite db
+2013-10-18T15:56:45.443Z - info: Reading models 
+2013-10-18T15:56:45.443Z - info: fileName is Award.js
+2013-10-18T15:56:45.447Z - info: Connecting to the sqlite db
+2013-10-18T15:57:35.964Z - info: Connecting to the sqlite db
+2013-10-18T15:57:36.013Z - info: Reading models 
+2013-10-18T15:57:36.014Z - info: fileName is Award.js
+2013-10-18T15:57:36.018Z - info: Connecting to the sqlite db
+2013-10-18T15:58:32.195Z - info: Connecting to the sqlite db
+2013-10-18T15:58:32.245Z - info: Reading models 
+2013-10-18T15:58:32.245Z - info: fileName is Award.js
+2013-10-18T15:58:47.149Z - info: Connecting to the sqlite db
+2013-10-18T15:58:47.199Z - info: Reading models 
+2013-10-18T15:58:47.199Z - info: fileName is Award.js
+2013-10-18T15:59:37.816Z - info: Connecting to the sqlite db
+2013-10-18T15:59:37.867Z - info: Reading models 
+2013-10-18T15:59:37.867Z - info: fileName is Award.js
+2013-10-18T16:00:02.694Z - info: Connecting to the sqlite db
+2013-10-18T16:00:02.744Z - info: Reading models 
+2013-10-18T16:00:02.744Z - info: fileName is Award.js
+2013-10-18T17:48:41.402Z - info: Connecting to the sqlite db
+2013-10-18T17:48:41.493Z - info: Reading models 
+2013-10-18T17:48:41.493Z - info: fileName is Award.js
+2013-10-18T17:49:14.116Z - info: Connecting to the sqlite db
+2013-10-18T17:49:14.165Z - info: Reading models 
+2013-10-18T17:49:14.165Z - info: fileName is Award.js
+2013-10-18T17:49:14.175Z - info: fileName is Constituency.js
+2013-10-18T17:49:50.802Z - info: Connecting to the sqlite db
+2013-10-18T17:49:50.851Z - info: Reading models 
+2013-10-18T17:49:50.851Z - info: fileName is Award.js
+2013-10-18T17:50:11.356Z - info: Connecting to the sqlite db
+2013-10-18T17:50:11.406Z - info: Reading models 
+2013-10-18T17:50:11.406Z - info: fileName is Award.js
+2013-10-18T17:50:11.416Z - info: fileName is Constituency.js
+2013-10-18T17:50:11.418Z - info: fileName is Party.js
+2013-10-18T17:50:34.193Z - info: Connecting to the sqlite db
+2013-10-18T17:50:34.243Z - info: Reading models 
+2013-10-18T17:50:34.243Z - info: fileName is Award.js
+2013-10-18T17:50:34.254Z - info: fileName is Constituency.js
+2013-10-18T17:50:34.255Z - info: fileName is Party.js
+2013-10-18T17:50:34.257Z - info: fileName is Politician.js
+2013-10-18T17:50:34.259Z - info: fileName is Rating.js
+2013-10-18T17:50:34.261Z - info: Connecting to the sqlite db
+2013-10-18T17:51:11.690Z - info: Connecting to the sqlite db
+2013-10-18T17:51:11.742Z - info: Reading models 
+2013-10-18T17:51:11.743Z - info: fileName is Award.js
+2013-10-18T17:51:11.753Z - info: fileName is Constituency.js
+2013-10-18T17:51:11.754Z - info: fileName is Party.js
+2013-10-18T17:51:11.756Z - info: fileName is Politician.js
+2013-10-18T17:51:11.758Z - info: fileName is Rating.js
+2013-10-18T17:52:24.299Z - info: Connecting to the sqlite db
+2013-10-18T17:52:24.350Z - info: Reading models 
+2013-10-18T17:52:24.351Z - info: fileName is Award.js
+2013-10-18T17:52:24.361Z - info: fileName is Constituency.js
+2013-10-18T17:52:24.363Z - info: fileName is Party.js
+2013-10-18T17:52:24.364Z - info: fileName is Politician.js
+2013-10-18T17:52:24.367Z - info: fileName is Rating.js
+2013-10-18T17:52:36.630Z - info: Connecting to the sqlite db
+2013-10-18T17:52:36.680Z - info: Reading models 
+2013-10-18T17:52:36.680Z - info: fileName is Award.js
+2013-10-18T17:52:36.690Z - info: fileName is Constituency.js
+2013-10-18T17:52:36.692Z - info: fileName is Party.js
+2013-10-18T17:52:36.693Z - info: fileName is Politician.js
+2013-10-18T17:52:36.695Z - info: fileName is Rating.js
+2013-10-18T17:53:26.146Z - info: Connecting to the sqlite db
+2013-10-18T17:53:26.198Z - info: Reading models 
+2013-10-18T17:53:26.199Z - info: fileName is Award.js
+2013-10-18T17:53:26.209Z - info: fileName is Constituency.js
+2013-10-18T17:53:26.210Z - info: fileName is Party.js
+2013-10-18T17:53:26.212Z - info: fileName is Politician.js
+2013-10-18T17:53:26.214Z - info: fileName is Rating.js
+2013-10-18T17:53:35.992Z - info: Connecting to the sqlite db
+2013-10-18T17:53:36.050Z - info: Reading models 
+2013-10-18T17:53:36.051Z - info: fileName is Award.js
+2013-10-18T17:53:36.067Z - info: fileName is Constituency.js
+2013-10-18T17:53:36.069Z - info: fileName is Party.js
+2013-10-18T17:53:36.071Z - info: fileName is Politician.js
+2013-10-18T17:53:36.074Z - info: fileName is Rating.js
+2013-10-18T17:53:42.704Z - info: Connecting to the sqlite db
+2013-10-18T17:53:42.754Z - info: Reading models 
+2013-10-18T17:53:42.754Z - info: fileName is Award.js
+2013-10-18T17:53:42.764Z - info: fileName is Constituency.js
+2013-10-18T17:53:42.765Z - info: fileName is Party.js
+2013-10-18T17:53:42.767Z - info: fileName is Politician.js
+2013-10-18T17:53:42.769Z - info: fileName is Rating.js
+2013-10-18T17:53:51.183Z - info: Connecting to the sqlite db
+2013-10-18T17:53:51.231Z - info: Reading models 
+2013-10-18T17:53:51.231Z - info: fileName is Award.js
+2013-10-18T17:53:51.242Z - info: fileName is Constituency.js
+2013-10-18T17:53:51.243Z - info: fileName is Party.js
+2013-10-18T17:53:51.245Z - info: fileName is Politician.js
+2013-10-18T17:53:51.247Z - info: fileName is Rating.js
+2013-10-18T17:54:32.634Z - info: Connecting to the sqlite db
+2013-10-18T17:54:32.683Z - info: Reading models 
+2013-10-18T17:54:32.684Z - info: fileName is Award.js
+2013-10-18T17:54:32.694Z - info: fileName is Constituency.js
+2013-10-18T17:54:32.696Z - info: fileName is Party.js
+2013-10-18T17:54:32.697Z - info: fileName is Politician.js
+2013-10-18T17:54:32.699Z - info: fileName is Rating.js
+2013-10-18T17:54:45.338Z - info: Connecting to the sqlite db
+2013-10-18T17:54:45.387Z - info: Reading models 
+2013-10-18T17:54:45.387Z - info: fileName is Award.js
+2013-10-18T17:54:45.397Z - info: fileName is Constituency.js
+2013-10-18T17:54:45.399Z - info: fileName is Party.js
+2013-10-18T17:54:45.400Z - info: fileName is Politician.js
+2013-10-18T17:54:45.403Z - info: fileName is Rating.js
+2013-10-18T17:54:45.404Z - info: fileName is State.js
+2013-10-18T17:55:04.807Z - info: Connecting to the sqlite db
+2013-10-18T17:55:04.856Z - info: Reading models 
+2013-10-18T17:55:04.856Z - info: fileName is Award.js
+2013-10-18T17:55:04.866Z - info: fileName is Constituency.js
+2013-10-18T17:55:04.868Z - info: fileName is Party.js
+2013-10-18T17:55:04.869Z - info: fileName is Politician.js
+2013-10-18T17:55:04.872Z - info: fileName is Rating.js
+2013-10-18T17:55:04.873Z - info: fileName is State.js
+2013-10-18T17:55:04.873Z - info: fileName is User.js
+2013-10-18T17:55:04.883Z - info: Syncing the database
+2013-10-18T17:55:46.309Z - info: Connecting to the sqlite db
+2013-10-18T17:55:46.365Z - info: Reading models 
+2013-10-18T17:55:46.365Z - info: fileName is Award.js
+2013-10-18T17:55:46.376Z - info: fileName is Constituency.js
+2013-10-18T17:55:46.377Z - info: fileName is Party.js
+2013-10-18T17:55:46.379Z - info: fileName is Politician.js
+2013-10-18T17:55:46.381Z - info: fileName is Rating.js
+2013-10-18T17:55:46.383Z - info: fileName is State.js
+2013-10-18T17:55:46.383Z - info: fileName is User.js
+2013-10-18T17:55:46.395Z - info: Syncing the database
+2013-10-18T17:56:25.751Z - info: Connecting to the sqlite db
+2013-10-18T17:56:25.801Z - info: Reading models 
+2013-10-18T17:56:25.801Z - info: fileName is Award.js
+2013-10-18T17:56:25.811Z - info: fileName is Constituency.js
+2013-10-18T17:56:25.813Z - info: fileName is Party.js
+2013-10-18T17:56:25.814Z - info: fileName is Politician.js
+2013-10-18T17:56:25.817Z - info: fileName is Rating.js
+2013-10-18T17:56:25.818Z - info: fileName is State.js
+2013-10-18T17:56:25.818Z - info: fileName is User.js
+2013-10-18T17:56:25.819Z - info: Syncing the database
+2013-10-18T17:56:44.297Z - info: Connecting to the sqlite db
+2013-10-18T17:56:44.348Z - info: Reading models 
+2013-10-18T17:56:44.348Z - info: fileName is Award.js
+2013-10-18T17:56:44.361Z - info: fileName is Constituency.js
+2013-10-18T17:56:44.363Z - info: fileName is Party.js
+2013-10-18T17:56:44.364Z - info: fileName is Politician.js
+2013-10-18T17:56:44.367Z - info: fileName is Rating.js
+2013-10-18T17:56:44.368Z - info: fileName is State.js
+2013-10-18T17:56:44.369Z - info: fileName is User.js
+2013-10-18T17:56:44.369Z - info: Syncing the database
+2013-10-18T17:58:30.581Z - info: Connecting to the sqlite db
+2013-10-18T17:58:30.629Z - info: Reading models 
+2013-10-18T17:58:30.630Z - info: fileName is Award.js
+2013-10-18T17:59:24.040Z - info: Connecting to the sqlite db
+2013-10-18T17:59:24.091Z - info: Reading models 
+2013-10-18T17:59:24.091Z - info: fileName is Award.js
+2013-10-18T18:00:00.018Z - info: Connecting to the sqlite db
+2013-10-18T18:00:00.072Z - info: Reading models 
+2013-10-18T18:00:00.073Z - info: fileName is Award.js
+2013-10-18T18:00:19.167Z - info: Connecting to the sqlite db
+2013-10-18T18:00:19.217Z - info: Reading models 
+2013-10-18T18:00:19.217Z - info: fileName is Award.js
+2013-10-18T18:00:51.233Z - info: Connecting to the sqlite db
+2013-10-18T18:00:51.283Z - info: Reading models 
+2013-10-18T18:00:51.283Z - info: fileName is Award.js
+2013-10-18T18:02:00.197Z - info: Connecting to the sqlite db
+2013-10-18T18:02:00.249Z - info: Reading models 
+2013-10-18T18:02:00.249Z - info: fileName is Award.js
+2013-10-18T18:02:18.174Z - info: Connecting to the sqlite db
+2013-10-18T18:02:18.226Z - info: Reading models 
+2013-10-18T18:02:18.226Z - info: fileName is Award.js
+2013-10-18T18:03:47.122Z - info: Connecting to the sqlite db
+2013-10-18T18:03:47.172Z - info: Reading models 
+2013-10-18T18:03:47.172Z - info: fileName is Award.js
+2013-10-18T18:04:06.327Z - info: Connecting to the sqlite db
+2013-10-18T18:04:06.380Z - info: Reading models 
+2013-10-18T18:04:06.380Z - info: fileName is Award.js
+2013-10-18T18:04:38.207Z - info: Connecting to the sqlite db
+2013-10-18T18:04:38.258Z - info: Reading models 
+2013-10-18T18:04:38.259Z - info: fileName is Award.js
+2013-10-18T18:04:38.269Z - info: fileName is Constituency.js
+2013-10-18T18:04:38.270Z - info: fileName is Party.js
+2013-10-18T18:04:38.272Z - info: fileName is Politician.js
+2013-10-18T18:05:01.415Z - info: Connecting to the sqlite db
+2013-10-18T18:05:01.464Z - info: Reading models 
+2013-10-18T18:05:01.464Z - info: fileName is Award.js
+2013-10-18T18:05:01.474Z - info: fileName is Constituency.js
+2013-10-18T18:05:01.475Z - info: fileName is Party.js
+2013-10-18T18:05:01.477Z - info: fileName is Politician.js
+2013-10-18T18:05:01.479Z - info: fileName is Rating.js
+2013-10-18T18:05:01.480Z - info: fileName is State.js
+2013-10-18T18:05:01.481Z - info: fileName is User.js
+2013-10-18T18:05:01.481Z - info: Syncing the database
+2013-10-18T18:05:11.004Z - info: Connecting to the sqlite db
+2013-10-18T18:05:11.066Z - info: Reading models 
+2013-10-18T18:05:11.066Z - info: fileName is Award.js
+2013-10-18T18:05:11.077Z - info: fileName is Constituency.js
+2013-10-18T18:05:11.079Z - info: fileName is Party.js
+2013-10-18T18:05:11.081Z - info: fileName is Politician.js
+2013-10-18T18:05:11.085Z - info: fileName is Rating.js
+2013-10-18T18:05:11.086Z - info: fileName is State.js
+2013-10-18T18:05:11.088Z - info: fileName is User.js
+2013-10-18T18:07:43.076Z - info: Connecting to the sqlite db
+2013-10-18T18:07:43.125Z - info: Reading models 
+2013-10-18T18:07:43.125Z - info: fileName is Award.js
+2013-10-18T18:07:57.181Z - info: Connecting to the sqlite db
+2013-10-18T18:07:57.230Z - info: Reading models 
+2013-10-18T18:07:57.230Z - info: fileName is Award.js
+2013-10-18T18:08:25.515Z - info: Connecting to the sqlite db
+2013-10-18T18:08:25.565Z - info: Reading models 
+2013-10-18T18:08:25.566Z - info: fileName is Award.js
+2013-10-18T18:08:37.778Z - info: Connecting to the sqlite db
+2013-10-18T18:08:37.829Z - info: Reading models 
+2013-10-18T18:08:37.829Z - info: fileName is Award.js
+2013-10-18T18:08:37.842Z - info: fileName is Constituency.js
+2013-10-18T18:08:37.844Z - info: fileName is Party.js
+2013-10-18T18:08:37.844Z - info: fileName is Politician.js
+2013-10-18T18:08:37.847Z - info: fileName is Rating.js
+2013-10-18T18:08:37.848Z - info: fileName is State.js
+2013-10-18T18:08:37.849Z - info: fileName is User.js
+2013-10-18T18:09:41.202Z - info: Connecting to the sqlite db
+2013-10-18T18:09:41.258Z - info: Reading models 
+2013-10-18T18:09:41.258Z - info: fileName is Award.js
+2013-10-18T18:09:41.272Z - info: fileName is Constituency.js
+2013-10-18T18:09:41.273Z - info: fileName is Party.js
+2013-10-18T18:09:41.274Z - info: fileName is Politician.js
+2013-10-18T18:09:41.277Z - info: fileName is Rating.js
+2013-10-18T18:09:41.278Z - info: fileName is State.js
+2013-10-18T18:09:41.278Z - info: fileName is User.js
+2013-10-18T18:09:41.279Z - info: Syncing the database
+2013-10-18T18:09:45.215Z - info: Connecting to the sqlite db
+2013-10-18T18:09:45.266Z - info: Reading models 
+2013-10-18T18:09:45.266Z - info: fileName is Award.js
+2013-10-18T18:09:45.280Z - info: fileName is Constituency.js
+2013-10-18T18:09:45.281Z - info: fileName is Party.js
+2013-10-18T18:09:45.282Z - info: fileName is Politician.js
+2013-10-18T18:09:45.284Z - info: fileName is Rating.js
+2013-10-18T18:09:45.285Z - info: fileName is State.js
+2013-10-18T18:09:45.286Z - info: fileName is User.js
+2013-10-18T18:09:45.287Z - info: Syncing the database
+2013-10-18T18:11:01.779Z - info: Connecting to the sqlite db
+2013-10-18T18:11:01.830Z - info: Reading models 
+2013-10-18T18:11:01.830Z - info: fileName is Award.js
+2013-10-18T18:11:01.846Z - info: fileName is Constituency.js
+2013-10-18T18:11:01.847Z - info: fileName is Party.js
+2013-10-18T18:11:01.849Z - info: fileName is Politician.js
+2013-10-18T18:11:01.851Z - info: fileName is Rating.js
+2013-10-18T18:11:01.852Z - info: fileName is State.js
+2013-10-18T18:11:01.853Z - info: fileName is User.js
+2013-10-18T18:11:01.853Z - info: Syncing the database
+2013-10-18T18:11:15.671Z - info: Connecting to the sqlite db
+2013-10-18T18:11:15.721Z - info: Reading models 
+2013-10-18T18:11:15.721Z - info: fileName is Award.js
+2013-10-18T18:11:15.736Z - info: fileName is Constituency.js
+2013-10-18T18:11:15.737Z - info: fileName is Party.js
+2013-10-18T18:11:15.739Z - info: fileName is Politician.js
+2013-10-18T18:11:15.741Z - info: fileName is Rating.js
+2013-10-18T18:11:15.742Z - info: fileName is State.js
+2013-10-18T18:11:15.743Z - info: fileName is User.js
+2013-10-18T18:11:15.743Z - info: Syncing the database
+2013-10-18T18:12:29.126Z - info: Connecting to the sqlite db
+2013-10-18T18:12:29.175Z - info: Reading models 
+2013-10-18T18:12:29.175Z - info: fileName is Award.js
+2013-10-18T18:12:29.191Z - info: fileName is Constituency.js
+2013-10-18T18:12:29.192Z - info: fileName is Party.js
+2013-10-18T18:12:29.194Z - info: fileName is Politician.js
+2013-10-18T18:12:29.196Z - info: fileName is Rating.js
+2013-10-18T18:13:57.068Z - info: Connecting to the sqlite db
+2013-10-18T18:13:57.116Z - info: Reading models 
+2013-10-18T18:13:57.116Z - info: fileName is Award.js
+2013-10-18T18:13:57.133Z - info: fileName is Constituency.js
+2013-10-18T18:13:57.134Z - info: fileName is Party.js
+2013-10-18T18:13:57.136Z - info: fileName is Politician.js
+2013-10-18T18:13:57.138Z - info: fileName is Rating.js
+2013-10-18T18:13:57.141Z - info: fileName is State.js
+2013-10-18T18:13:57.142Z - info: fileName is User.js
+2013-10-18T18:13:57.143Z - info: Syncing the database
+2013-10-18T18:15:28.802Z - info: Connecting to the sqlite db
+2013-10-18T18:15:28.852Z - info: Reading models 
+2013-10-18T18:15:28.853Z - info: fileName is Award.js
+2013-10-18T18:15:28.870Z - info: fileName is Constituency.js
+2013-10-18T18:15:28.871Z - info: fileName is Party.js
+2013-10-18T18:15:28.873Z - info: fileName is Politician.js
+2013-10-18T18:15:28.874Z - info: fileName is Rating.js
+2013-10-18T18:15:28.878Z - info: fileName is State.js
+2013-10-18T18:15:28.878Z - info: fileName is User.js
+2013-10-18T18:15:28.880Z - info: Syncing the database
+2013-10-18T18:15:35.061Z - info: Connecting to the sqlite db
+2013-10-18T18:15:35.110Z - info: Reading models 
+2013-10-18T18:15:35.111Z - info: fileName is Award.js
+2013-10-18T18:15:35.128Z - info: fileName is Constituency.js
+2013-10-18T18:15:35.128Z - info: fileName is Party.js
+2013-10-18T18:15:35.130Z - info: fileName is Politician.js
+2013-10-18T18:15:35.132Z - info: fileName is Rating.js
+2013-10-18T18:15:35.135Z - info: fileName is State.js
+2013-10-18T18:15:35.136Z - info: fileName is User.js
+2013-10-18T18:15:35.137Z - info: Syncing the database
+2013-10-18T18:16:31.789Z - info: Connecting to the sqlite db
+2013-10-18T18:16:31.840Z - info: Reading models 
+2013-10-18T18:16:31.840Z - info: fileName is Award.js
+2013-10-18T18:16:48.473Z - info: Connecting to the sqlite db
+2013-10-18T18:16:48.526Z - info: Reading models 
+2013-10-18T18:16:48.526Z - info: fileName is Award.js
+2013-10-18T18:16:57.675Z - info: Connecting to the sqlite db
+2013-10-18T18:16:57.725Z - info: Reading models 
+2013-10-18T18:16:57.725Z - info: fileName is Award.js
+2013-10-18T18:17:05.992Z - info: Connecting to the sqlite db
+2013-10-18T18:17:06.047Z - info: Reading models 
+2013-10-18T18:17:06.047Z - info: fileName is Award.js
+2013-10-18T18:17:06.058Z - info: fileName is Constituency.js
+2013-10-18T18:17:06.059Z - info: fileName is Party.js
+2013-10-18T18:17:06.061Z - info: fileName is Politician.js
+2013-10-18T18:17:06.068Z - info: fileName is Rating.js
+2013-10-18T18:17:06.074Z - info: fileName is State.js
+2013-10-18T18:17:06.075Z - info: fileName is User.js
+2013-10-18T18:17:06.076Z - info: Syncing the database
+2013-10-18T19:16:18.789Z - info: Connecting to the sqlite db
+2013-10-18T19:16:18.860Z - info: Reading models 
+2013-10-18T19:16:18.860Z - info: fileName is Award.js
+2013-10-18T19:16:18.871Z - info: fileName is Constituency.js
+2013-10-18T19:16:18.872Z - info: fileName is Party.js
+2013-10-18T19:16:18.874Z - info: fileName is Politician.js
+2013-10-18T19:16:18.882Z - info: fileName is Rating.js
+2013-10-18T19:16:18.889Z - info: fileName is State.js
+2013-10-18T19:16:18.889Z - info: fileName is User.js
+2013-10-18T19:16:18.890Z - info: Syncing the database
+2013-10-18T19:27:23.250Z - info: Connecting to the sqlite db
+2013-10-18T19:27:23.303Z - info: Reading models 
+2013-10-18T19:27:23.303Z - info: fileName is Award.js
+2013-10-18T19:27:23.317Z - info: fileName is Comment.js
+2013-10-18T19:27:36.340Z - info: Connecting to the sqlite db
+2013-10-18T19:27:36.390Z - info: Reading models 
+2013-10-18T19:27:36.391Z - info: fileName is Award.js
+2013-10-18T19:27:36.401Z - info: fileName is Comment.js
+2013-10-18T19:29:35.867Z - info: Connecting to the sqlite db
+2013-10-18T19:29:35.919Z - info: Reading models 
+2013-10-18T19:29:35.920Z - info: fileName is Award.js
+2013-10-18T19:29:35.930Z - info: fileName is Comment.js
+2013-10-18T19:29:35.942Z - info: fileName is Constituency.js
+2013-10-18T19:29:35.942Z - info: fileName is Party.js
+2013-10-18T19:29:35.943Z - info: fileName is Politician.js
+2013-10-18T19:29:35.946Z - info: fileName is Rating.js
+2013-10-18T19:29:35.947Z - info: fileName is State.js
+2013-10-18T19:29:35.948Z - info: fileName is User.js
+2013-10-18T19:29:35.949Z - info: Syncing the database
+2013-10-18T19:29:43.973Z - info: Connecting to the sqlite db
+2013-10-18T19:29:44.029Z - info: Reading models 
+2013-10-18T19:29:44.029Z - info: fileName is Award.js
+2013-10-18T19:29:44.044Z - info: fileName is Comment.js
+2013-10-18T19:29:44.056Z - info: fileName is Constituency.js
+2013-10-18T19:29:44.057Z - info: fileName is Party.js
+2013-10-18T19:29:44.057Z - info: fileName is Politician.js
+2013-10-18T19:29:44.062Z - info: fileName is Rating.js
+2013-10-18T19:29:44.064Z - info: fileName is State.js
+2013-10-18T19:29:44.064Z - info: fileName is User.js
+2013-10-18T19:29:44.065Z - info: Syncing the database
+2013-10-18T19:46:07.627Z - info: Connecting to the sqlite db
+2013-10-18T19:46:07.687Z - info: Reading models 
+2013-10-18T19:46:07.687Z - info: fileName is Award.js
+2013-10-18T19:46:07.698Z - info: fileName is Comment.js
+2013-10-18T19:46:23.886Z - info: Connecting to the sqlite db
+2013-10-18T19:46:23.936Z - info: Reading models 
+2013-10-18T19:46:23.936Z - info: fileName is Award.js
+2013-10-18T19:46:23.947Z - info: fileName is Comment.js
+2013-10-18T19:46:23.957Z - info: fileName is Constituency.js
+2013-10-18T19:46:23.958Z - info: fileName is Party.js
+2013-10-18T19:46:23.958Z - info: fileName is Politician.js
+2013-10-18T19:46:23.962Z - info: fileName is Rating.js
+2013-10-18T19:46:23.966Z - info: fileName is State.js
+2013-10-18T19:46:23.966Z - info: fileName is User.js
+2013-10-18T19:46:23.968Z - info: Syncing the database
+2013-10-18T19:46:30.512Z - info: Connecting to the sqlite db
+2013-10-18T19:46:30.569Z - info: Reading models 
+2013-10-18T19:46:30.569Z - info: fileName is Award.js
+2013-10-18T19:46:30.580Z - info: fileName is Comment.js
+2013-10-18T19:46:30.590Z - info: fileName is Constituency.js
+2013-10-18T19:46:30.590Z - info: fileName is Party.js
+2013-10-18T19:46:30.591Z - info: fileName is Politician.js
+2013-10-18T19:46:30.594Z - info: fileName is Rating.js
+2013-10-18T19:46:30.598Z - info: fileName is State.js
+2013-10-18T19:46:30.598Z - info: fileName is User.js
+2013-10-18T19:46:30.599Z - info: Syncing the database
+2013-10-18T19:47:42.489Z - info: Connecting to the sqlite db
+2013-10-18T19:47:42.541Z - info: Reading models 
+2013-10-18T19:47:42.542Z - info: fileName is Award.js
+2013-10-18T19:47:42.555Z - info: fileName is Comment.js
+2013-10-18T19:47:42.556Z - info: fileName is Constituency.js
+2013-10-18T19:47:42.558Z - info: fileName is Party.js
+2013-10-18T19:47:42.560Z - info: fileName is Politician.js
+2013-10-18T19:47:42.569Z - info: fileName is Rating.js
+2013-10-18T19:47:42.574Z - info: fileName is State.js
+2013-10-18T19:47:42.574Z - info: fileName is User.js
+2013-10-18T19:47:42.575Z - info: Syncing the database
+2013-10-18T20:23:41.801Z - info: Connecting to the sqlite db
+2013-10-18T20:23:41.911Z - info: Reading models 
+2013-10-18T20:23:41.911Z - info: fileName is Award.js
+2013-10-18T20:23:41.939Z - info: fileName is Comment.js
+2013-10-18T20:23:41.941Z - info: fileName is Constituency.js
+2013-10-18T20:23:41.943Z - info: fileName is Party.js
+2013-10-18T20:23:41.944Z - info: fileName is Politician.js
+2013-10-18T20:23:41.952Z - info: fileName is Rating.js
+2013-10-18T20:23:41.974Z - info: fileName is State.js
+2013-10-18T20:23:41.974Z - info: fileName is User.js
+2013-10-18T20:23:41.975Z - info: Syncing the database
+2013-10-18T20:23:41.977Z - info: Registering the routes
+2013-10-18T20:23:41.978Z - info: Enter UserController constructor
+2013-10-18T20:23:41.978Z - info: AuthenticationController::constructor
+2013-10-18T20:23:41.979Z - info: Enter StateController constructor
+2013-10-18T20:23:41.980Z - info: Enter PoliticianController constructor
+2013-10-18T20:24:59.457Z - info: Connecting to the sqlite db
+2013-10-18T20:24:59.507Z - info: Reading models 
+2013-10-18T20:24:59.507Z - info: fileName is Award.js
+2013-10-18T20:24:59.517Z - info: fileName is Comment.js
+2013-10-18T20:24:59.518Z - info: fileName is Constituency.js
+2013-10-18T20:24:59.521Z - info: fileName is Party.js
+2013-10-18T20:24:59.522Z - info: fileName is Politician.js
+2013-10-18T20:24:59.531Z - info: fileName is Rating.js
+2013-10-18T20:24:59.535Z - info: fileName is State.js
+2013-10-18T20:24:59.535Z - info: fileName is User.js
+2013-10-18T20:24:59.536Z - info: Syncing the database
+2013-10-18T20:24:59.538Z - info: Registering the routes
+2013-10-18T20:24:59.539Z - info: Enter UserController constructor
+2013-10-18T20:24:59.540Z - info: AuthenticationController::constructor
+2013-10-18T20:24:59.541Z - info: Enter StateController constructor
+2013-10-18T20:24:59.541Z - info: Enter PoliticianController constructor
+2013-10-18T20:25:06.140Z - info: Connecting to the sqlite db
+2013-10-18T20:25:06.187Z - info: Reading models 
+2013-10-18T20:25:06.188Z - info: fileName is Award.js
+2013-10-18T20:25:06.198Z - info: fileName is Comment.js
+2013-10-18T20:25:06.199Z - info: fileName is Constituency.js
+2013-10-18T20:25:06.201Z - info: fileName is Party.js
+2013-10-18T20:25:06.202Z - info: fileName is Politician.js
+2013-10-18T20:25:06.210Z - info: fileName is Rating.js
+2013-10-18T20:25:06.214Z - info: fileName is State.js
+2013-10-18T20:25:06.215Z - info: fileName is User.js
+2013-10-18T20:25:06.216Z - info: Syncing the database
+2013-10-18T20:25:06.218Z - info: Registering the routes
+2013-10-18T20:25:06.219Z - info: Enter UserController constructor
+2013-10-18T20:25:06.219Z - info: AuthenticationController::constructor
+2013-10-18T20:25:06.220Z - info: Enter StateController constructor
+2013-10-18T20:25:06.221Z - info: Enter PoliticianController constructor
+2013-10-18T20:26:42.546Z - info: Connecting to the sqlite db
+2013-10-18T20:26:42.596Z - info: Reading models 
+2013-10-18T20:26:42.596Z - info: fileName is Award.js
+2013-10-18T20:26:42.606Z - info: fileName is Comment.js
+2013-10-18T20:26:42.607Z - info: fileName is Constituency.js
+2013-10-18T20:26:42.609Z - info: fileName is Party.js
+2013-10-18T20:26:42.610Z - info: fileName is Politician.js
+2013-10-18T20:26:42.619Z - info: fileName is Rating.js
+2013-10-18T20:26:42.623Z - info: fileName is State.js
+2013-10-18T20:26:42.623Z - info: fileName is User.js
+2013-10-18T20:26:42.624Z - info: Syncing the database
+2013-10-18T20:26:42.626Z - info: Registering the routes
+2013-10-18T20:26:42.630Z - info: Enter UserController constructor
+2013-10-18T20:26:42.631Z - info: AuthenticationController::constructor
+2013-10-18T20:26:42.634Z - info: Enter StateController constructor
+2013-10-18T20:26:42.635Z - info: Enter PoliticianController constructor
+2013-10-18T20:26:50.796Z - info: Connecting to the sqlite db
+2013-10-18T20:26:50.843Z - info: Reading models 
+2013-10-18T20:26:50.843Z - info: fileName is Award.js
+2013-10-18T20:26:50.853Z - info: fileName is Comment.js
+2013-10-18T20:26:50.854Z - info: fileName is Constituency.js
+2013-10-18T20:26:50.856Z - info: fileName is Party.js
+2013-10-18T20:26:50.857Z - info: fileName is Politician.js
+2013-10-18T20:26:50.865Z - info: fileName is Rating.js
+2013-10-18T20:26:50.869Z - info: fileName is State.js
+2013-10-18T20:26:50.870Z - info: fileName is User.js
+2013-10-18T20:26:50.871Z - info: Syncing the database
+2013-10-18T20:26:50.872Z - info: Registering the routes
+2013-10-18T20:26:50.876Z - info: Enter UserController constructor
+2013-10-18T20:26:50.877Z - info: AuthenticationController::constructor
+2013-10-18T20:26:50.880Z - info: Enter StateController constructor
+2013-10-18T20:26:50.881Z - info: Enter PoliticianController constructor
+2013-10-18T20:28:00.728Z - info: GET /api/v1/politician called
+2013-10-18T20:28:00.728Z - info: PoliticianController:get
+2013-10-18T20:28:44.433Z - info: Connecting to the sqlite db
+2013-10-18T20:28:44.484Z - info: Reading models 
+2013-10-18T20:28:44.484Z - info: fileName is Award.js
+2013-10-18T20:28:44.494Z - info: fileName is Comment.js
+2013-10-18T20:28:44.495Z - info: fileName is Constituency.js
+2013-10-18T20:28:44.497Z - info: fileName is Party.js
+2013-10-18T20:28:44.498Z - info: fileName is Politician.js
+2013-10-18T20:28:44.507Z - info: fileName is Rating.js
+2013-10-18T20:28:44.511Z - info: fileName is State.js
+2013-10-18T20:28:44.512Z - info: fileName is User.js
+2013-10-18T20:28:44.513Z - info: Syncing the database
+2013-10-18T20:28:44.514Z - info: Registering the routes
+2013-10-18T20:28:44.518Z - info: Enter UserController constructor
+2013-10-18T20:28:44.519Z - info: AuthenticationController::constructor
+2013-10-18T20:28:44.523Z - info: Enter StateController constructor
+2013-10-18T20:28:44.524Z - info: Enter PoliticianController constructor
+2013-10-18T20:28:50.627Z - info: Connecting to the sqlite db
+2013-10-18T20:28:50.678Z - info: Reading models 
+2013-10-18T20:28:50.678Z - info: fileName is Award.js
+2013-10-18T20:28:50.689Z - info: fileName is Comment.js
+2013-10-18T20:28:50.690Z - info: fileName is Constituency.js
+2013-10-18T20:28:50.692Z - info: fileName is Party.js
+2013-10-18T20:28:50.693Z - info: fileName is Politician.js
+2013-10-18T20:28:50.701Z - info: fileName is Rating.js
+2013-10-18T20:28:50.705Z - info: fileName is State.js
+2013-10-18T20:28:50.706Z - info: fileName is User.js
+2013-10-18T20:28:50.707Z - info: Syncing the database
+2013-10-18T20:28:50.708Z - info: Registering the routes
+2013-10-18T20:28:50.713Z - info: Enter UserController constructor
+2013-10-18T20:28:50.713Z - info: AuthenticationController::constructor
+2013-10-18T20:28:50.717Z - info: Enter StateController constructor
+2013-10-18T20:28:50.717Z - info: Enter PoliticianController constructor
+2013-10-18T20:29:02.167Z - info: GET /api/v1/politician called
+2013-10-18T20:29:02.167Z - info: PoliticianController:get
+2013-10-18T20:29:06.711Z - info: GET /api/v1/politician/:politicianId called
+2013-10-18T20:29:06.712Z - info: PoliticianController:getDetails
+2013-10-18T20:29:47.514Z - info: Connecting to the sqlite db
+2013-10-18T20:29:47.562Z - info: Reading models 
+2013-10-18T20:29:47.562Z - info: fileName is Award.js
+2013-10-18T20:29:47.572Z - info: fileName is Comment.js
+2013-10-18T20:29:47.573Z - info: fileName is Constituency.js
+2013-10-18T20:29:47.575Z - info: fileName is Party.js
+2013-10-18T20:29:47.576Z - info: fileName is Politician.js
+2013-10-18T20:29:47.584Z - info: fileName is Rating.js
+2013-10-18T20:29:47.588Z - info: fileName is State.js
+2013-10-18T20:29:47.588Z - info: fileName is User.js
+2013-10-18T20:29:47.589Z - info: Syncing the database
+2013-10-18T20:29:47.591Z - info: Registering the routes
+2013-10-18T20:29:47.595Z - info: Enter UserController constructor
+2013-10-18T20:29:47.596Z - info: AuthenticationController::constructor
+2013-10-18T20:29:47.599Z - info: Enter StateController constructor
+2013-10-18T20:29:47.600Z - info: Enter PoliticianController constructor
+2013-10-18T20:29:50.761Z - info: GET /api/v1/politician/:politicianId called
+2013-10-18T20:29:50.761Z - info: PoliticianController:getDetails
+2013-10-18T20:29:54.125Z - info: GET /api/v1/politician/:politicianId called
+2013-10-18T20:29:54.125Z - info: PoliticianController:getDetails
