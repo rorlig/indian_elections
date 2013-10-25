@@ -55,14 +55,6 @@ app.set('models', require('./app/models'), function(){
 
 });
 var sequelize = app.get('models').sequelize;
-//models.forEach(function(model){
-//	fs.readFileSync(__dirname + '/app/models/' + model + '.js').fun
-//})
-////// Bootstrap models
-//fs.readdirSync(__dirname + '/app/models').forEach(function (file) {
-//	AppLogger.log('info', "fileName is "  + file);
-//	if (~file.indexOf('.js')) require(__dirname + '/app/models/' + file)(sequelize)
-//})
 
 
 
@@ -78,20 +70,20 @@ AppLogger.log('info', 'Registering the routes');
 
 
 
-//var swagger = require("swagger-node-express");
-//
-//swagger.setAppHandler(app);
-//
-//swagger.addModels(swagger_models)
-//	.addGet(petResources.findByTags)
-//	.addGet(petResources.findByStatus)
-//	.addGet(petResources.findById)
-//	.addPost(petResources.addPet)
-//	.addPut(petResources.updatePet)
-//	.addDelete(petResources.deletePet);
-//
-//// Configures the app's base path and api version.
-//swagger.configure("http://localhost:3001/", "0.1");
+var swagger = require("swagger-node-express");
+
+swagger.setAppHandler(app);
+
+swagger.addModels(swagger_models)
+	.addGet(petResources.findByTags)
+	.addGet(petResources.findByStatus)
+	.addGet(petResources.findById)
+	.addPost(petResources.addPet)
+	.addPut(petResources.updatePet)
+	.addDelete(petResources.deletePet);
+
+// Configures the app's base path and api version.
+swagger.configure("http://localhost:3001/", "0.1");
 
 
 
@@ -113,20 +105,20 @@ app.set('port', process.env.PORT || 3001);
 //app.use(express.static(path.join(__dirname, 'public')));
 
 //// Serve up swagger ui at /docs via static route
-//var docs_handler = express.static(path.join('./node_modules/swagger-node-express/swagger-ui-1.1.13/'));
-//app.get(/^\/docs(\/.*)?$/, function(req, res, next) {
-//	AppLogger.info('GET /docs');
-//	if (req.url === '/docs') { // express static barfs on root url w/o trailing slash
-//		AppLogger.info('Second Stuff');
-//		res.writeHead(302, { 'Location' : req.url + '/' });
-//		res.end();
-//		return;
-//	}
-//	// take off leading /docs so that connect locates file correctly
-//	req.url = req.url.substr('/docs'.length);
-//	AppLogger.info('Stripped url:::' + req.url);
-//	return docs_handler(req, res, next);
-//});
+var docs_handler = express.static(path.join('./node_modules/swagger-node-express/swagger-ui-1.1.13/'));
+app.get(/^\/docs(\/.*)?$/, function(req, res, next) {
+	AppLogger.info('GET /docs');
+	if (req.url === '/docs') { // express static barfs on root url w/o trailing slash
+		AppLogger.info('Second Stuff');
+		res.writeHead(302, { 'Location' : req.url + '/' });
+		res.end();
+		return;
+	}
+	// take off leading /docs so that connect locates file correctly
+	req.url = req.url.substr('/docs'.length);
+	AppLogger.info('Stripped url:::' + req.url);
+	return docs_handler(req, res, next);
+});
 
 // Bootstrap routes
 

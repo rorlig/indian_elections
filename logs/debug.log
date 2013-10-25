@@ -7151,3 +7151,53 @@
 2013-10-25T19:10:07.913Z - info: AuthenticationController::constructor
 2013-10-25T19:10:07.914Z - info: Enter StateController constructor
 2013-10-25T19:10:07.915Z - info: Enter PoliticianController constructor
+2013-10-25T19:27:55.667Z - info: Connecting to the sqlite db
+2013-10-25T19:27:55.668Z - info: Reading models 
+2013-10-25T19:27:56.012Z - info: Syncing the database
+2013-10-25T19:27:56.013Z - info: Registering the routes
+2013-10-25T19:27:56.157Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:27:56.158Z - info: AuthenticationController::constructor
+2013-10-25T19:27:56.160Z - info: Enter StateController constructor
+2013-10-25T19:27:56.160Z - info: Enter PoliticianController constructor
+2013-10-25T19:29:04.988Z - info: Connecting to the sqlite db
+2013-10-25T19:29:04.990Z - info: Reading models 
+2013-10-25T19:29:05.318Z - info: Syncing the database
+2013-10-25T19:29:05.319Z - info: Registering the routes
+2013-10-25T19:29:05.370Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:29:05.371Z - info: AuthenticationController::constructor
+2013-10-25T19:29:05.372Z - info: Enter StateController constructor
+2013-10-25T19:29:05.372Z - info: Enter PoliticianController constructor
+2013-10-25T19:29:15.809Z - info: GET /docs
+2013-10-25T19:29:15.809Z - info: Stripped url:::/
+2013-10-25T19:29:15.943Z - info: GET /docs
+2013-10-25T19:29:15.943Z - info: Stripped url:::/css/hightlight.default.css
+2013-10-25T19:29:15.944Z - info: GET /docs
+2013-10-25T19:29:15.944Z - info: Stripped url:::/css/screen.css
+2013-10-25T19:29:15.947Z - info: GET /docs
+2013-10-25T19:29:15.947Z - info: Stripped url:::/lib/jquery-1.8.0.min.js
+2013-10-25T19:29:15.948Z - info: GET /docs
+2013-10-25T19:29:15.948Z - info: Stripped url:::/lib/jquery.slideto.min.js
+2013-10-25T19:29:15.949Z - info: GET /docs
+2013-10-25T19:29:15.949Z - info: Stripped url:::/lib/jquery.wiggle.min.js
+2013-10-25T19:29:15.949Z - info: GET /docs
+2013-10-25T19:29:15.949Z - info: Stripped url:::/lib/jquery.ba-bbq.min.js
+2013-10-25T19:29:15.967Z - info: GET /docs
+2013-10-25T19:29:15.967Z - info: Stripped url:::/lib/handlebars-1.0.rc.1.js
+2013-10-25T19:29:15.969Z - info: GET /docs
+2013-10-25T19:29:15.969Z - info: Stripped url:::/lib/underscore-min.js
+2013-10-25T19:29:15.973Z - info: GET /docs
+2013-10-25T19:29:15.973Z - info: Stripped url:::/lib/backbone-min.js
+2013-10-25T19:29:15.974Z - info: GET /docs
+2013-10-25T19:29:15.974Z - info: Stripped url:::/lib/swagger.js
+2013-10-25T19:29:15.974Z - info: GET /docs
+2013-10-25T19:29:15.974Z - info: Stripped url:::/swagger-ui.js
+2013-10-25T19:29:15.975Z - info: GET /docs
+2013-10-25T19:29:15.975Z - info: Stripped url:::/lib/highlight.7.3.pack.js
+2013-10-25T19:29:16.131Z - info: GET /docs
+2013-10-25T19:29:16.131Z - info: Stripped url:::/images/logo_small.png
+2013-10-25T19:29:16.131Z - info: GET /docs
+2013-10-25T19:29:16.131Z - info: Stripped url:::/images/pet_store_api.png
+2013-10-25T19:29:16.132Z - info: GET /docs
+2013-10-25T19:29:16.132Z - info: Stripped url:::/images/wordnik_api.png
+2013-10-25T19:29:16.314Z - info: GET /docs
+2013-10-25T19:29:16.314Z - info: Stripped url:::/images/throbber.gif
