@@ -25,11 +25,15 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/common/paramTypes.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/common/swagger.js" charset="UTF-8" />
+  </component>
   <component name="IdProvider" IDEtalkID="BF89A6C24CC80192F4BADF352C60EA8C" />
   <component name="JavaScriptLibraryMappings">
     <file url="PROJECT" libraries="{Node.js v0.10.18 Core Modules}" />
-    <includedPredefinedLibrary name="Node.js Globals" />
+    <excludedPredefinedLibrary name="HTML" />
+    <excludedPredefinedLibrary name="HTML5 / EcmaScript 5" />
   </component>
   <component name="Palette2">
     <group name="Swing">

@@ -1,5 +1,11 @@
 {
-  "name": "application-name",
+  "name": "indian-elections-2014",
+  "description": "Server code for indian elections 2014",
+   "version": "0.0.1",
+   "author": {
+		"name": "Gaurav Gupta",
+		"email": "guptgaurav@gmail.com"
+	},
   "version": "0.0.1",
   "private": true,
   "scripts": {

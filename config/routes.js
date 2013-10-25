@@ -5,21 +5,27 @@
 
 
 // controllers
-var userController =  new (require('../app/controllers/UserController'))();
-var authenticationController = new (require('../app/controllers/AuthenticationController'))();
-var authorizationController = new (require('../app/controllers/AuthorizationController'))();
-var stateController = new (require('../app/controllers/StateController'))();
-var politicianController = new (require('../app/controllers/PoliticianController'))();
+var UserController =  require('../app/controllers/UserController');
+//var authenticationController = new (require('../app/controllers/AuthenticationController'))();
+//var authorizationController = new (require('../app/controllers/AuthorizationController'))();
+//var stateController = new (require('../app/controllers/StateController'))();
+//var politicianController = new (require('../app/controllers/PoliticianController'))();
 
 
 var AppLogger = require('../app/common/AppLogger');
+
+var express = require('express');
 
 /**
  * Expose
  */
 
-module.exports = function (app) {
-
+module.exports = function (app,sequelize) {
+	var userController =  new UserController(app);
+	var authenticationController = new (require('../app/controllers/AuthenticationController'))();
+	var authorizationController = new (require('../app/controllers/AuthorizationController'))();
+	var stateController = new (require('../app/controllers/StateController'))();
+	var politicianController = new (require('../app/controllers/PoliticianController'))();
 	// get the user information...
 	app.get('/api/v1/user',
 		authenticationController.isAuthenticated,
@@ -31,7 +37,7 @@ module.exports = function (app) {
 	/** adding a account or new user **/
 	app.post('/api/v1/user', function(req,res){
 
-		AppLogger.log('info', 'POST /api/v1/user called');
+		AppLogger.log('info', 'POST /api/v1/user called with body : ' + req);
 		userController.post(req,res);
 	});
 
@@ -99,6 +105,22 @@ module.exports = function (app) {
 		partyController.get(req,res);
 	})
 
+
+//	// Serve up swagger ui at /docs via static route
+//	var docs_handler = express.static(__dirname + '../node_modules/swagger-node-express/swagger-ui-1.1.13/');
+//	app.get(/^\/docs(\/.*)?$/, function(req, res, next) {
+//		AppLogger.info('GET /docs');
+//		if (req.url === '/docs') { // express static barfs on root url w/o trailing slash
+//			AppLogger.info('Second Stuff');
+//			res.writeHead(302, { 'Location' : req.url + '/' });
+//			res.end();
+//			return;
+//		}
+//		// take off leading /docs so that connect locates file correctly
+//		req.url = req.url.substr('/docs'.length);
+//		AppLogger.info('Stripped url:::' + req.url);
+//		return docs_handler(req, res, next);
+//	});
 
 
 

@@ -13,18 +13,48 @@ var Sequelize = require("sequelize");
 
 
 module.exports = function (sequelize) {
-	var Politician = sequelize.import(__dirname + '/Politician');
-	var Comment = sequelize.import(__dirname + '/Comment');
+//	var Politician = sequelize.import(__dirname + '/Politician');
+//	var Comment = sequelize.import(__dirname + '/Comment');
+//	var Rating = 	 sequelize.import(__dirname + '/Rating');
 
+
+	var Favorite = 	 sequelize.import(__dirname + '/Favorite');
 
 	var User = sequelize.define('User', {
-		name: Sequelize.STRING,
-		email: Sequelize.TEXT
+		name: {
+			type:Sequelize.STRING,
+			validate: {
+				notNull: { args: true, msg: 'name cannot be null' }
+			}
+		},
+		email: {
+			type:Sequelize.TEXT,
+			validate: {
+				notNull: { args: true, msg: 'email cannot be null' } ,
+				isEmail: {args: true, msg:'email incorrectly formatted'}
+			}
+		},
+		firstName: Sequelize.STRING,
+		lastName: Sequelize.STRING,
+		accessToken: Sequelize.TEXT,
+		accessTokenExpiration:Sequelize.BIGINT,
+		networkName: Sequelize.STRING,
+		networkId: Sequelize.INTEGER
 
-	})
 
-	User.hasMany(Politician, {as: 'Favorites'})
-	User.hasMany(Comment);
+
+
+})
+
+//	User.hasMany(Politician, {as: 'Favorites', foreignKeyConstraint:true})
+//	User.hasMany(Favorite, {foreignKeyConstraint:true});
+//
+//
+//	User.hasMany(Comment, {foreignKeyConstraint:true});
+//	User.hasMany(Rating,{foreignKeyConstraint:true});
+
+
+
 
 	return User;
 }

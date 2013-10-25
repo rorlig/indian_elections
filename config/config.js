@@ -29,7 +29,7 @@ module.exports = {
 			protocol: null,
 
 			// disable logging; default: console.log
-			logging: false,
+			logging: true,
 
 			// max concurrent database requests; default: 50
 			maxConcurrentQueries: 100,
