@@ -14,7 +14,7 @@
     <file path="/Party.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382597008336" ignored="false" />
     <file path="/Politician.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382599249821" ignored="false" />
     <file path="/Award.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382120033899" ignored="false" />
-    <file path="/User.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382726957101" ignored="false" />
+    <file path="/User.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382728138791" ignored="false" />
     <file path="/Rating.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382649060442" ignored="false" />
     <file path="$PROJECT_DIR$/app/models/Comments.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382078448314" ignored="false" />
     <file path="/DBHelper.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382079429827" ignored="false" />
@@ -372,7 +372,7 @@
       <file leaf-file-name="User.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="50" selection-start="828" selection-end="828" vertical-scroll-proportion="0.7208238">
+            <state line="62" column="3" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-0.6132723">
               <folding />
             </state>
           </provider>
@@ -401,9 +401,9 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/config/express.js" />
-        <option value="$PROJECT_DIR$/app/models/User.js" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
         <option value="$PROJECT_DIR$/test/user.js" />
+        <option value="$PROJECT_DIR$/app/models/User.js" />
       </list>
     </option>
   </component>
@@ -900,7 +900,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="50" selection-start="828" selection-end="828" vertical-scroll-proportion="0.7208238">
+        <state line="62" column="3" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-0.6132723">
           <folding />
         </state>
       </provider>

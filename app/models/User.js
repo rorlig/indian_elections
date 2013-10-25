@@ -23,24 +23,61 @@ module.exports = function (sequelize) {
 	var User = sequelize.define('User', {
 		name: {
 			type:Sequelize.STRING,
+			allowNull: false,
 			validate: {
 				notNull: { args: true, msg: 'name cannot be null' }
 			}
 		},
 		email: {
 			type:Sequelize.TEXT,
+			allowNull: false,
 			validate: {
 				notNull: { args: true, msg: 'email cannot be null' } ,
 				isEmail: {args: true, msg:'email incorrectly formatted'}
 			}
 		},
-		firstName: Sequelize.STRING,
-		lastName: Sequelize.STRING,
-		accessToken: Sequelize.TEXT,
-		accessTokenExpiration:Sequelize.BIGINT,
-		networkName: Sequelize.STRING,
-		networkId: Sequelize.INTEGER
-
+		firstName: {
+			type: Sequelize.STRING,
+			allowNull: false,
+			validate: {
+				notNull: {args:true, msg:'firstName cannot be null'}
+			}
+		},
+		lastName: {
+			type: Sequelize.STRING,
+			allowNull: false,
+			validate: {
+				notNull: {args:true, msg:'lastName cannot be null'}
+			}
+		},
+		accessToken: {
+			type: Sequelize.TEXT,
+			allowNull: false,
+			validate: {
+				notNull: {args:true, msg:'accessToken cannot be null'}
+			}
+		},
+		accessTokenExpiration: {
+			type: Sequelize.BIGINT,
+			allowNull: false,
+			validate: {
+				notNull: {args:true, msg:'accessTokenExpiration cannot be null'}
+			}
+		},
+		networkName: {
+			type: Sequelize.STRING,
+			allowNull: false,
+			validate: {
+				notNull: {args:true, msg:'networkName cannot be null'}
+			}
+		},
+		networkId: {
+			type: Sequelize.INTEGER,
+			allowNull: false,
+			validate: {
+				notNull: {args:true, msg:'networkId cannot be null'}
+			}
+		}
 
 
 

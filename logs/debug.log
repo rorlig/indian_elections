@@ -7103,3 +7103,51 @@
 2013-10-25T18:55:04.367Z - info: POST /api/v1/user called with body : [object Object]
 2013-10-25T18:55:04.369Z - info: UserController:post body is :[object Object]
 2013-10-25T18:55:04.371Z - info: response returned:{"responseCode":666,"responseValue":"Error in User Login:{\"email\":[\"email incorrectly formatted\"]}","responseType":"Error","isError":true}
+2013-10-25T19:01:27.809Z - info: Connecting to the sqlite db
+2013-10-25T19:01:27.810Z - info: Reading models 
+2013-10-25T19:01:28.134Z - info: Syncing the database
+2013-10-25T19:01:28.135Z - info: Registering the routes
+2013-10-25T19:01:28.167Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:01:28.168Z - info: AuthenticationController::constructor
+2013-10-25T19:01:28.169Z - info: Enter StateController constructor
+2013-10-25T19:01:28.170Z - info: Enter PoliticianController constructor
+2013-10-25T19:09:02.643Z - info: Connecting to the sqlite db
+2013-10-25T19:09:02.644Z - info: Reading models 
+2013-10-25T19:09:02.967Z - info: Syncing the database
+2013-10-25T19:09:02.967Z - info: Registering the routes
+2013-10-25T19:09:03.000Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:09:03.000Z - info: AuthenticationController::constructor
+2013-10-25T19:09:03.001Z - info: Enter StateController constructor
+2013-10-25T19:09:03.002Z - info: Enter PoliticianController constructor
+2013-10-25T19:09:09.217Z - info: Connecting to the sqlite db
+2013-10-25T19:09:09.218Z - info: Reading models 
+2013-10-25T19:09:09.543Z - info: Syncing the database
+2013-10-25T19:09:09.543Z - info: Registering the routes
+2013-10-25T19:09:09.576Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:09:09.577Z - info: AuthenticationController::constructor
+2013-10-25T19:09:09.578Z - info: Enter StateController constructor
+2013-10-25T19:09:09.579Z - info: Enter PoliticianController constructor
+2013-10-25T19:09:53.628Z - info: Connecting to the sqlite db
+2013-10-25T19:09:53.629Z - info: Reading models 
+2013-10-25T19:09:53.947Z - info: Syncing the database
+2013-10-25T19:09:53.947Z - info: Registering the routes
+2013-10-25T19:09:53.981Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:09:53.982Z - info: AuthenticationController::constructor
+2013-10-25T19:09:53.983Z - info: Enter StateController constructor
+2013-10-25T19:09:53.983Z - info: Enter PoliticianController constructor
+2013-10-25T19:09:59.646Z - info: Connecting to the sqlite db
+2013-10-25T19:09:59.647Z - info: Reading models 
+2013-10-25T19:09:59.969Z - info: Syncing the database
+2013-10-25T19:09:59.969Z - info: Registering the routes
+2013-10-25T19:10:00.002Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:10:00.003Z - info: AuthenticationController::constructor
+2013-10-25T19:10:00.004Z - info: Enter StateController constructor
+2013-10-25T19:10:00.005Z - info: Enter PoliticianController constructor
+2013-10-25T19:10:07.554Z - info: Connecting to the sqlite db
+2013-10-25T19:10:07.555Z - info: Reading models 
+2013-10-25T19:10:07.880Z - info: Syncing the database
+2013-10-25T19:10:07.880Z - info: Registering the routes
+2013-10-25T19:10:07.913Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-25T19:10:07.913Z - info: AuthenticationController::constructor
+2013-10-25T19:10:07.914Z - info: Enter StateController constructor
+2013-10-25T19:10:07.915Z - info: Enter PoliticianController constructor
