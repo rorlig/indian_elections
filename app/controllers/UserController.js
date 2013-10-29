@@ -57,7 +57,7 @@ var userController = (function() {
 
 				console.log(user.id);
 				console.log(created);
-				var response = responseUtils.get(200, JSON.stringify(user), 'User', true);
+				var response = responseUtils.get(200, JSON.stringify(user), 'User', false);
 				res.send(response);
 
 			}).error(function(error){
@@ -82,8 +82,8 @@ var userController = (function() {
 	}
 
 	UserController.prototype.addUserToDB = function(userVal){
-		AppLogger.info('UserController:addUserToDB: ' + JSON.stringify(userVal));
-		AppLogger.info('UserController:addUserToDB: ' + JSON.stringify(testUser));
+//		AppLogger.info('UserController:addUserToDB: ' + JSON.stringify(userVal));
+//		AppLogger.info('UserController:addUserToDB: ' + JSON.stringify(testUser));
 
 		var user = User.build(testUser);
 		console.log('User is:::'  + JSON.stringify(user));
@@ -95,7 +95,7 @@ var userController = (function() {
 		});
 
 //		User.sync({force:true});
-		console.log('success User is:::'  + JSON.stringify(user));
+//		console.log('success User is:::'  + JSON.stringify(user));
 
 //		user.save().success(function(success){
 //			 console.log("successs");

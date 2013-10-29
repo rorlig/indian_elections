@@ -10,7 +10,13 @@ module.exports = function (sequelize) {
 	var Politician = sequelize.import(__dirname + '/Politician');
 
 	var Party = sequelize.define('Party', {
-		name: Sequelize.STRING,
+		name: {
+			type:Sequelize.STRING,
+//			allowNull: false,
+//			validate: {
+//				notNull: { args: true, msg: 'name cannot be null' }
+//			}
+		},
 		version: Sequelize.INTEGER,
 		imageUrl: Sequelize.TEXT
 

@@ -23,8 +23,16 @@ module.exports = function (sequelize) {
 
 
 	var Politician = sequelize.define('Politician', {
-		name: Sequelize.STRING,
-		imageName: Sequelize.STRING,
+		name: {
+			type:Sequelize.STRING,
+//			allowNull: false,
+//			validate: {
+//				notNull: { args: true, msg: 'name cannot be null' }
+//			}
+		},
+		imageName: {
+			type:Sequelize.STRING,
+		},
 		versionNumber: Sequelize.INTEGER,
 		almaMater: Sequelize.TEXT,
 		highestDegree: Sequelize.TEXT,

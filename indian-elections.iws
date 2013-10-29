@@ -4,8 +4,8 @@
     <list default="true" id="73d025dd-b8f3-46d7-8963-5317e7bc4a57" name="Default" comment="" />
     <ignored path="indian-elections.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/app.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382651997446" ignored="false" />
-    <file path="/Dummy.txt" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673427524" ignored="false" />
+    <file path="/app.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383006191595" ignored="false" />
+    <file path="/Dummy.txt" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382981323878" ignored="false" />
     <file path="/package.json" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382590096741" ignored="false" />
     <file path="/config.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382639456305" ignored="false" />
     <file path="/politicians.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382077341697" ignored="false" />
@@ -18,20 +18,20 @@
     <file path="/Rating.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382649060442" ignored="false" />
     <file path="$PROJECT_DIR$/app/models/Comments.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382078448314" ignored="false" />
     <file path="/DBHelper.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382079429827" ignored="false" />
-    <file path="/a.dummy" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382583940544" ignored="false" />
+    <file path="/a.dummy" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383000872345" ignored="false" />
     <file path="/Comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382124558467" ignored="false" />
-    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382720860126" ignored="false" />
+    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382734303954" ignored="false" />
     <file path="/AuthenticationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382589996506" ignored="false" />
     <file path="/CommentController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382126126705" ignored="false" />
-    <file path="/PoliticianController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382128099593" ignored="false" />
+    <file path="/PoliticianController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383013186830" ignored="false" />
     <file path="/StateController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382127207473" ignored="false" />
     <file path="/AuthorizationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382127407055" ignored="false" />
     <file path="/models.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382586453109" ignored="false" />
-    <file path="/user.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382727291728" ignored="false" />
-    <file path="/UserController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382727173675" ignored="false" />
+    <file path="/user.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382982711371" ignored="false" />
+    <file path="/UserController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382734931768" ignored="false" />
     <file path="/Favorite.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382599201240" ignored="false" />
     <file path="/testDB.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382712109548" ignored="false" />
-    <file path="/index.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382702176806" ignored="false" />
+    <file path="/index.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382999696541" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-3.0.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440844" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jdbc-3.0.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440844" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JBoss/lib/jbossIntegration.jar!/descriptors/jboss-deployment-structure-1_1.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440844" ignored="false" />
@@ -255,6 +255,7 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-context-2.5.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440849" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tool-2.5.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440849" ignored="false" />
     <file path="/express.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382724313421" ignored="false" />
+    <file path="/politician.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382985709464" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,6 +270,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -305,7 +307,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -315,37 +316,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="0" selection-start="2588" selection-end="3169" vertical-scroll-proportion="0.270073">
+            <state line="62" column="24" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dao-factory.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/dao-factory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="333" column="41" selection-start="10695" selection-end="10695" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flash.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/connect-flash/lib/flash.js">
+      <file leaf-file-name="Politician.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Politician.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="40" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
+            <state line="27" column="12" selection-start="778" selection-end="877" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.js">
+      <file leaf-file-name="PoliticianController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+            <state line="118" column="51" selection-start="3881" selection-end="3881" vertical-scroll-proportion="-0.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="express.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/express.js">
+      <file leaf-file-name="Party.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Party.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="22" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0">
+            <state line="14" column="12" selection-start="294" selection-end="393" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="politician.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/politician.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="38" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="39" selection-start="1786" selection-end="1796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -354,7 +384,16 @@
       <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="32" selection-start="4300" selection-end="4300" vertical-scroll-proportion="0.0">
+            <state line="158" column="18" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="26" selection-start="1133" selection-end="1133" vertical-scroll-proportion="-0.5769231">
               <folding />
             </state>
           </provider>
@@ -363,16 +402,7 @@
       <file leaf-file-name="UserController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="35" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="3" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
+            <state line="71" column="10" selection-start="1100" selection-end="2035" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -388,29 +418,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
-        <option value="$PROJECT_DIR$/app/models/Favorite.js" />
         <option value="$PROJECT_DIR$/app/models/Constituency.js" />
         <option value="$PROJECT_DIR$/app/models/State.js" />
-        <option value="$PROJECT_DIR$/app/models/Party.js" />
-        <option value="$PROJECT_DIR$/app/models/Politician.js" />
         <option value="$PROJECT_DIR$/app/models/Rating.js" />
-        <option value="$PROJECT_DIR$/app/models/index.js" />
-        <option value="$PROJECT_DIR$/test/testDB.js" />
-        <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/config/express.js" />
-        <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
-        <option value="$PROJECT_DIR$/test/user.js" />
         <option value="$PROJECT_DIR$/app/models/User.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
+        <option value="$PROJECT_DIR$/test/user.js" />
+        <option value="$PROJECT_DIR$/test/testDB.js" />
+        <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
+        <option value="$PROJECT_DIR$/app/models/Party.js" />
+        <option value="$PROJECT_DIR$/app/models/Politician.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/test/politician.js" />
+        <option value="$PROJECT_DIR$/app/models/index.js" />
+        <option value="$PROJECT_DIR$/app/controllers/PoliticianController.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="811" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -440,7 +470,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -470,6 +500,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indian-elections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indian-elections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,7 +583,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -584,22 +628,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -626,6 +654,22 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -699,13 +743,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="698" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -721,12 +766,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.67293775" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32706222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6695502" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33044982" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -790,117 +834,113 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/Rating.js">
+    <entry file="file://$PROJECT_DIR$/views/home/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Politician.js">
+    <entry file="file://$PROJECT_DIR$/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="821" selection-end="828" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="46" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/index.js">
+    <entry file="file://$PROJECT_DIR$/config/express.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="85" column="22" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="45" selection-start="9623" selection-end="9627" vertical-scroll-proportion="8.076923">
-          <folding />
-        </state>
+        <state line="163" column="36" selection-start="3604" selection-end="3604" vertical-scroll-proportion="2.942029" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/index.js">
+    <entry file="file://$PROJECT_DIR$/app/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="15" selection-start="5101" selection-end="5101" vertical-scroll-proportion="-4.5384617">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="29" column="12" selection-start="625" selection-end="760" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/testDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="7" selection-start="724" selection-end="939" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="75" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/404.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/connect-flash/lib/flash.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="40" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="35" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0">
+        <state line="39" column="30" selection-start="1006" selection-end="1017" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="32" selection-start="4300" selection-end="4300" vertical-scroll-proportion="0.0">
+        <state line="158" column="18" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/dao-factory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="3" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
+        <state line="333" column="41" selection-start="10695" selection-end="10695" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/express.js">
+    <entry file="file://$PROJECT_DIR$/app/models/Party.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="22" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0">
+        <state line="14" column="12" selection-start="294" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="10" selection-start="1100" selection-end="2035" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="0" selection-start="2588" selection-end="3169" vertical-scroll-proportion="0.270073">
+        <state line="46" column="26" selection-start="1133" selection-end="1133" vertical-scroll-proportion="-0.5769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Politician.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="778" selection-end="877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="39" selection-start="1786" selection-end="1796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/politician.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="38" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="24" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="51" selection-start="3881" selection-end="3881" vertical-scroll-proportion="-0.25">
           <folding />
         </state>
       </provider>

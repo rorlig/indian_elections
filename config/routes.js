@@ -9,7 +9,7 @@ var UserController =  require('../app/controllers/UserController');
 //var authenticationController = new (require('../app/controllers/AuthenticationController'))();
 //var authorizationController = new (require('../app/controllers/AuthorizationController'))();
 //var stateController = new (require('../app/controllers/StateController'))();
-//var politicianController = new (require('../app/controllers/PoliticianController'))();
+var PoliticianController =  require('../app/controllers/PoliticianController');
 
 
 var AppLogger = require('../app/common/AppLogger');
@@ -25,7 +25,7 @@ module.exports = function (app,sequelize) {
 	var authenticationController = new (require('../app/controllers/AuthenticationController'))();
 	var authorizationController = new (require('../app/controllers/AuthorizationController'))();
 	var stateController = new (require('../app/controllers/StateController'))();
-	var politicianController = new (require('../app/controllers/PoliticianController'))();
+	var politicianController = new PoliticianController(app);
 	// get the user information...
 	app.get('/api/v1/user',
 		authenticationController.isAuthenticated,
