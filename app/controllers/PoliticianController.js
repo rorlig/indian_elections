@@ -7,7 +7,7 @@
 var AppLogger = require('../common/AppLogger');
 var ResponseUtils  = require('../common/ResponseUtils');
 var responseUtils = new ResponseUtils();
-
+var Sequelize = require('sequelize');
 
 var testParty = {
 	name: "Trinamul Party",
@@ -114,10 +114,54 @@ var politician_controller = (function() {
 	PoliticianController.prototype.getDetails = function (req,res,next) {
 		//todo need to populate ratings and comments...
 		AppLogger.info('PoliticianController getDetails politicianId:' + req.params.politicianId);
-		Politician.find({where: {id: req.params.politicianId}, include: [Party, Rating, Favorite, Comment]}).success(function(politician){
-			var response = responseUtils.get(200, politician, 'Politician', false);
-			AppLogger.info('PoliticianController getDetails politicianId:' + JSON.stringify(politician));
-			res.send(response);
+		Politician.find({where: {id: req.params.politicianId}}).success(function(politician){
+			if (politician!=null){
+				var chainer = new Sequelize.Utils.QueryChainer
+				chainer
+					.add(politician.getRatings())
+					.add(politician.getComments())
+					.add(politician.getFavorites())
+					.add(politician.getParty())
+					.runSerially()
+					.success(function(result){
+					  AppLogger.info('results ' + JSON.stringify(result[0]));
+					  var politicianVal = {};
+					      politicianVal.politician = JSON.parse(JSON.stringify(politician));
+						  politicianVal.politician.rating = result[0];
+					      politicianVal.politician.comment = result[1];
+						  politicianVal.politician.favorite = result[2];
+						  politicianVal.politician.party = result[3];
+
+//						var returnVal ={};
+//						returnVal.rating = result[0];
+//						returnVal.comment = result[1];
+//						returnVal.favorite = result[2];
+//						returnVal.party = result[3]
+//						returnVal.politician = politician;
+//						returnVal.politician.rating = result[0];
+//						returnVal.politician = politician;
+//					  politician.rating = [];
+//					  politician.rating.push(result[0]);
+//					  politician.comment = result[1];
+//				      politician.favorite = result[2];
+					  var response = responseUtils.get(200, politicianVal, 'Politician', false);
+					  AppLogger.info('PoliticianController getDetails politicianId returnVal:' + JSON.stringify(politicianVal));
+					  res.send(response);
+					})
+					.error(function(err){
+
+					})
+			  }
+
+//				AppLogger.info('Politician comments: ' + JSON.stringify(politician.getComments()));
+//				AppLogger.info('Politician favorites: ' + JSON.stringify(politician.getFavorites()));
+
+
+			  else {
+				var response = responseUtils.get(666, 'Politician not found ', 'Error', true);
+//			    AppLogger.log('info', "response returned:" + JSON.stringify(response));
+				res.send(response);
+			}
 		}).error(function(error){
 			var response = responseUtils.get(666, 'Politician not found ' +JSON.stringify(error), 'Error', true);
 //			AppLogger.log('info', "response returned:" + JSON.stringify(response));
@@ -185,7 +229,7 @@ var politician_controller = (function() {
 					favorite.setPolitician(politician);
 					favorite.setUser(req.user);
 //				   req.user.setPolitician(politician);
-					rating.save();
+					favorite.save();
 				})
 				var response = responseUtils.get(200, politician, 'Politician', false);
 				AppLogger.info('PoliticianController getDetails politicianId:' + JSON.stringify(politician));
@@ -204,8 +248,33 @@ var politician_controller = (function() {
 
 	//post the comments for a politician
 	PoliticianController.prototype.comment = function (req,res,next) {
-		AppLogger.info('PoliticianController:comment');
-		res.send('TODO - PoliticianController:comment');
+		AppLogger.info('PoliticianController:comment: ' + req.params.politicianId);
+
+		Politician.find({where: {id: req.params.politicianId}}).success(function(politician){
+
+			if (req.body.commentText === undefined || req.body.commentText==""){
+				var response = responseUtils.get(666, "Comment Text missing in the Request Body", 'Error', false);
+				res.send(response);
+			} else {
+				Comment.create({commentText:req.body.commentText}).success(function(comment){
+//				   politician.setRating(rating);
+//				   req.user.setRating(rating);
+					comment.setPolitician(politician);
+					comment.setUser(req.user);
+//				   req.user.setPolitician(politician);
+					comment.save();
+				})
+				var response = responseUtils.get(200, politician, 'Politician', false);
+				AppLogger.info('PoliticianController created new comment politicianId:' + JSON.stringify(politician));
+				res.send(response);
+			}
+
+		}).error(function(error){
+				AppLogger.info('Politician not found in db');
+				var response = responseUtils.get(666, 'Politician not found:' +JSON.stringify(error), 'Error', true);
+				res.send(response);
+			})
+
 	}
 
 

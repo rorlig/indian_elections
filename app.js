@@ -44,7 +44,7 @@ var sequelize = app.get('models').sequelize;
 AppLogger.log('info', 'Syncing the database');
 
 //todo - turn this to false after first execution...
-sequelize.sync({force:true}).success(function(){
+sequelize.sync({force:false}).success(function(){
 	AppLogger.log('info', 'Registering the routes');
 	// all environments
 	app.set('port', process.env.PORT || 3001);

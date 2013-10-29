@@ -78,9 +78,8 @@ module.exports = function (app,sequelize) {
 	/** comment on a politician  **/
 	app.post('/api/v1/politician/:politicianId/comment',
 		authenticationController.isAuthenticated,
-		authorizationController.isAuthorized, function(req,res){
+		function(req,res){
 			AppLogger.log('info', 'POST /api/v1/politician/:politicianId/comment called');
-
 			politicianController.comment(req,res);
 	})
 
