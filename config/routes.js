@@ -8,7 +8,7 @@
 var UserController =  require('../app/controllers/UserController');
 var AuthenticationController = require('../app/controllers/AuthenticationController');
 //var authorizationController = new (require('../app/controllers/AuthorizationController'))();
-//var stateController = new (require('../app/controllers/StateController'))();
+var StateController = require('../app/controllers/StateController');
 var PoliticianController =  require('../app/controllers/PoliticianController');
 
 
@@ -24,7 +24,7 @@ module.exports = function (app,sequelize) {
 	var userController =  new UserController(app);
 	var authenticationController = new AuthenticationController(app);
 	var authorizationController = new (require('../app/controllers/AuthorizationController'))();
-	var stateController = new (require('../app/controllers/StateController'))();
+	var stateController = new StateController(app);
 	var politicianController = new PoliticianController(app);
 	// get the user information...
 	app.get('/api/v1/user',
@@ -90,6 +90,12 @@ module.exports = function (app,sequelize) {
 		stateController.get(req,res);
 	})
 
+	/** get all the constituency for state **/
+	app.get('/api/v1/state/:stateId', function(req,res){
+		AppLogger.log('info', 'GET /api/v1/state/:stateId/constituency called');
+
+		stateController.getConstituencies(req,res);
+	})
 	/** get all the constituency for state **/
 	app.get('/api/v1/state/:stateId/constituency', function(req,res){
 		AppLogger.log('info', 'GET /api/v1/state/:stateId/constituency called');

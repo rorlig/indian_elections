@@ -19199,3 +19199,243 @@
 2013-10-29T06:30:14.529Z - info: PoliticianController getDetails politicianId:1
 2013-10-29T06:30:14.539Z - info: results [{"ratingValue":1,"id":1,"createdAt":"2013-10-29T06:30:06.000Z","updatedAt":"2013-10-29T06:30:06.000Z","UserId":1,"PoliticianId":1},{"ratingValue":1,"id":2,"createdAt":"2013-10-29T06:30:13.000Z","updatedAt":"2013-10-29T06:30:13.000Z","UserId":1,"PoliticianId":1}]
 2013-10-29T06:30:14.540Z - info: PoliticianController getDetails politicianId returnVal:{"politician":{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"0000-00-00 00:00:00 Z","description":null,"link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","currentPosition":null,"personalWebsite":null,"id":1,"createdAt":"2013-10-29T06:29:56.000Z","updatedAt":"2013-10-29T06:29:56.000Z","PartyId":1,"rating":[{"ratingValue":1,"id":1,"createdAt":"2013-10-29T06:30:06.000Z","updatedAt":"2013-10-29T06:30:06.000Z","UserId":1,"PoliticianId":1},{"ratingValue":1,"id":2,"createdAt":"2013-10-29T06:30:13.000Z","updatedAt":"2013-10-29T06:30:13.000Z","UserId":1,"PoliticianId":1}],"comment":[{"commentText":"This is a test comment","id":1,"createdAt":"2013-10-29T06:30:06.000Z","updatedAt":"2013-10-29T06:30:06.000Z","UserId":1,"PoliticianId":1},{"commentText":"This is a test comment","id":2,"createdAt":"2013-10-29T06:30:13.000Z","updatedAt":"2013-10-29T06:30:13.000Z","UserId":1,"PoliticianId":1}],"favorite":[{"favoriteValue":"Yes","id":1,"createdAt":"2013-10-29T06:30:06.000Z","updatedAt":"2013-10-29T06:30:06.000Z","UserId":1,"PoliticianId":1},{"favoriteValue":"Yes","id":2,"createdAt":"2013-10-29T06:30:13.000Z","updatedAt":"2013-10-29T06:30:13.000Z","UserId":1,"PoliticianId":1}],"party":{"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:29:56.000Z","updatedAt":"2013-10-29T06:29:56.000Z"}}}
+2013-10-29T06:33:40.580Z - info: Connecting to the sqlite db
+2013-10-29T06:33:40.581Z - info: Reading models 
+2013-10-29T06:33:40.906Z - info: Syncing the database
+2013-10-29T06:33:42.829Z - info: Registering the routes
+2013-10-29T06:33:42.876Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:33:42.876Z - info: AuthenticationController::constructor
+2013-10-29T06:33:42.877Z - info: Enter StateController constructor
+2013-10-29T06:33:42.877Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:33:42.923Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:33:42.000Z","updatedAt":"2013-10-29T06:33:42.000Z"}
+2013-10-29T06:33:42.923Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:33:42.000Z","updatedAt":"2013-10-29T06:33:42.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:33:42.000Z","updatedAt":"2013-10-29T06:33:42.000Z","PartyId":1}]
+2013-10-29T06:41:08.019Z - info: Connecting to the sqlite db
+2013-10-29T06:41:08.020Z - info: Reading models 
+2013-10-29T06:41:08.349Z - info: Syncing the database
+2013-10-29T06:41:10.337Z - info: Registering the routes
+2013-10-29T06:41:10.380Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:41:10.380Z - info: AuthenticationController::constructor
+2013-10-29T06:41:10.381Z - info: Enter StateController constructor
+2013-10-29T06:41:10.381Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:41:10.424Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:41:10.000Z","updatedAt":"2013-10-29T06:41:10.000Z"}
+2013-10-29T06:41:10.425Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:41:10.000Z","updatedAt":"2013-10-29T06:41:10.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:41:10.000Z","updatedAt":"2013-10-29T06:41:10.000Z","PartyId":1}]
+2013-10-29T06:41:20.145Z - info: GET /api/v1/state called
+2013-10-29T06:41:20.145Z - info: StateController:get
+2013-10-29T06:41:38.274Z - info: Connecting to the sqlite db
+2013-10-29T06:41:38.275Z - info: Reading models 
+2013-10-29T06:41:38.600Z - info: Syncing the database
+2013-10-29T06:41:39.724Z - info: Registering the routes
+2013-10-29T06:41:39.765Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:41:39.765Z - info: AuthenticationController::constructor
+2013-10-29T06:41:39.766Z - info: Enter StateController constructor
+2013-10-29T06:41:39.766Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:41:39.806Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":2,"createdAt":"2013-10-29T06:41:39.000Z","updatedAt":"2013-10-29T06:41:39.000Z"}
+2013-10-29T06:41:39.806Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":3,"createdAt":"2013-10-29T06:41:39.000Z","updatedAt":"2013-10-29T06:41:39.000Z","PartyId":2},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":4,"createdAt":"2013-10-29T06:41:39.000Z","updatedAt":"2013-10-29T06:41:39.000Z","PartyId":2}]
+2013-10-29T06:41:42.226Z - info: GET /api/v1/state called
+2013-10-29T06:41:42.226Z - info: StateController:get
+2013-10-29T06:41:42.230Z - info:  states: []
+2013-10-29T06:43:37.675Z - info: GET /api/v1/state called
+2013-10-29T06:43:37.675Z - info: StateController:get
+2013-10-29T06:43:37.678Z - info:  states: []
+2013-10-29T06:45:08.443Z - info: Connecting to the sqlite db
+2013-10-29T06:45:08.444Z - info: Reading models 
+2013-10-29T06:45:08.770Z - info: Syncing the database
+2013-10-29T06:45:10.477Z - info: Registering the routes
+2013-10-29T06:45:10.519Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:45:10.519Z - info: AuthenticationController::constructor
+2013-10-29T06:45:10.520Z - info: Enter StateController constructor
+2013-10-29T06:45:10.520Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:45:10.561Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:45:10.000Z","updatedAt":"2013-10-29T06:45:10.000Z"}
+2013-10-29T06:45:10.561Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:45:10.000Z","updatedAt":"2013-10-29T06:45:10.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:45:10.000Z","updatedAt":"2013-10-29T06:45:10.000Z","PartyId":1}]
+2013-10-29T06:45:13.598Z - info: GET /api/v1/state called
+2013-10-29T06:45:13.598Z - info: StateController:get
+2013-10-29T06:45:13.601Z - info:  states: []
+2013-10-29T06:45:58.141Z - info: Connecting to the sqlite db
+2013-10-29T06:45:58.142Z - info: Reading models 
+2013-10-29T06:45:58.472Z - info: Syncing the database
+2013-10-29T06:46:00.024Z - info: Registering the routes
+2013-10-29T06:46:00.072Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:46:00.072Z - info: AuthenticationController::constructor
+2013-10-29T06:46:00.072Z - info: Enter StateController constructor
+2013-10-29T06:46:00.073Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:46:00.115Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:46:00.000Z","updatedAt":"2013-10-29T06:46:00.000Z"}
+2013-10-29T06:46:00.115Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:46:00.000Z","updatedAt":"2013-10-29T06:46:00.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:46:00.000Z","updatedAt":"2013-10-29T06:46:00.000Z","PartyId":1}]
+2013-10-29T06:46:07.391Z - info: GET /api/v1/state called
+2013-10-29T06:46:07.391Z - info: StateController:get
+2013-10-29T06:46:07.394Z - info:  states: []
+2013-10-29T06:46:07.407Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:46:07.407Z - info: StateController:getConstituencies with stateIdundefined
+2013-10-29T06:46:39.102Z - info: GET /api/v1/state called
+2013-10-29T06:46:39.102Z - info: StateController:get
+2013-10-29T06:46:39.104Z - info:  states: []
+2013-10-29T06:46:39.115Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:46:39.115Z - info: StateController:getConstituencies with stateIdundefined
+2013-10-29T06:46:43.335Z - info: Connecting to the sqlite db
+2013-10-29T06:46:43.336Z - info: Reading models 
+2013-10-29T06:46:43.664Z - info: Syncing the database
+2013-10-29T06:46:45.389Z - info: Registering the routes
+2013-10-29T06:46:45.437Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:46:45.437Z - info: AuthenticationController::constructor
+2013-10-29T06:46:45.438Z - info: Enter StateController constructor
+2013-10-29T06:46:45.438Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:46:45.485Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:46:45.000Z","updatedAt":"2013-10-29T06:46:45.000Z"}
+2013-10-29T06:46:45.486Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:46:45.000Z","updatedAt":"2013-10-29T06:46:45.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:46:45.000Z","updatedAt":"2013-10-29T06:46:45.000Z","PartyId":1}]
+2013-10-29T06:46:48.156Z - info: GET /api/v1/state called
+2013-10-29T06:46:48.156Z - info: StateController:get
+2013-10-29T06:46:48.159Z - info:  states: []
+2013-10-29T06:46:48.173Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:46:48.173Z - info: StateController:getConstituencies with stateId1
+2013-10-29T06:47:05.132Z - info: Connecting to the sqlite db
+2013-10-29T06:47:05.133Z - info: Reading models 
+2013-10-29T06:47:05.457Z - info: Syncing the database
+2013-10-29T06:47:07.199Z - info: Registering the routes
+2013-10-29T06:47:07.245Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:47:07.245Z - info: AuthenticationController::constructor
+2013-10-29T06:47:07.246Z - info: Enter StateController constructor
+2013-10-29T06:47:07.246Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:47:07.287Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:47:07.000Z","updatedAt":"2013-10-29T06:47:07.000Z"}
+2013-10-29T06:47:07.287Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:47:07.000Z","updatedAt":"2013-10-29T06:47:07.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:47:07.000Z","updatedAt":"2013-10-29T06:47:07.000Z","PartyId":1}]
+2013-10-29T06:47:09.010Z - info: GET /api/v1/state called
+2013-10-29T06:47:09.010Z - info: StateController:get
+2013-10-29T06:47:09.014Z - info:  states: []
+2013-10-29T06:47:09.027Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:47:09.027Z - info: StateController:getConstituencies with stateId1
+2013-10-29T06:47:50.132Z - info: Connecting to the sqlite db
+2013-10-29T06:47:50.133Z - info: Reading models 
+2013-10-29T06:47:50.466Z - info: Syncing the database
+2013-10-29T06:47:53.073Z - info: Registering the routes
+2013-10-29T06:47:53.115Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:47:53.115Z - info: AuthenticationController::constructor
+2013-10-29T06:47:53.116Z - info: Enter StateController constructor
+2013-10-29T06:47:53.116Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:47:53.167Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":2,"createdAt":"2013-10-29T06:47:53.000Z","updatedAt":"2013-10-29T06:47:53.000Z"}
+2013-10-29T06:47:53.168Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:47:53.000Z","updatedAt":"2013-10-29T06:47:53.000Z","PartyId":2},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:47:53.000Z","updatedAt":"2013-10-29T06:47:53.000Z","PartyId":2}]
+2013-10-29T06:48:02.996Z - info: Connecting to the sqlite db
+2013-10-29T06:48:02.997Z - info: Reading models 
+2013-10-29T06:48:03.326Z - info: Syncing the database
+2013-10-29T06:48:04.879Z - info: Registering the routes
+2013-10-29T06:48:04.921Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:48:04.921Z - info: AuthenticationController::constructor
+2013-10-29T06:48:04.922Z - info: Enter StateController constructor
+2013-10-29T06:48:04.922Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:48:04.964Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:48:04.000Z","updatedAt":"2013-10-29T06:48:04.000Z"}
+2013-10-29T06:48:04.964Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:48:04.000Z","updatedAt":"2013-10-29T06:48:04.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:48:04.000Z","updatedAt":"2013-10-29T06:48:04.000Z","PartyId":1}]
+2013-10-29T06:48:09.296Z - info: GET /api/v1/state called
+2013-10-29T06:48:09.296Z - info: StateController:get
+2013-10-29T06:48:09.300Z - info:  states: []
+2013-10-29T06:48:09.313Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:48:09.313Z - info: StateController:getConstituencies with stateId1
+2013-10-29T06:49:52.599Z - info: Connecting to the sqlite db
+2013-10-29T06:49:52.600Z - info: Reading models 
+2013-10-29T06:49:52.922Z - info: Syncing the database
+2013-10-29T06:49:54.375Z - info: Registering the routes
+2013-10-29T06:49:54.418Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:49:54.418Z - info: AuthenticationController::constructor
+2013-10-29T06:49:54.419Z - info: Enter StateController constructor
+2013-10-29T06:49:54.419Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:49:54.521Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:49:54.000Z","updatedAt":"2013-10-29T06:49:54.000Z"}
+2013-10-29T06:49:54.521Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:49:54.000Z","updatedAt":"2013-10-29T06:49:54.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:49:54.000Z","updatedAt":"2013-10-29T06:49:54.000Z","PartyId":1}]
+2013-10-29T06:49:56.509Z - info: GET /api/v1/state called
+2013-10-29T06:49:56.510Z - info: StateController:get
+2013-10-29T06:49:56.513Z - info:  states: []
+2013-10-29T06:49:56.526Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:49:56.527Z - info: StateController:getConstituencies with stateId1
+2013-10-29T06:53:34.939Z - info: Connecting to the sqlite db
+2013-10-29T06:53:34.940Z - info: Reading models 
+2013-10-29T06:53:35.274Z - info: Syncing the database
+2013-10-29T06:53:37.212Z - info: Registering the routes
+2013-10-29T06:53:37.256Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:53:37.256Z - info: AuthenticationController::constructor
+2013-10-29T06:53:37.256Z - info: Enter StateController constructor
+2013-10-29T06:53:37.259Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:53:37.328Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:53:37.000Z","updatedAt":"2013-10-29T06:53:37.000Z"}
+2013-10-29T06:53:37.328Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:53:37.000Z","updatedAt":"2013-10-29T06:53:37.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:53:37.000Z","updatedAt":"2013-10-29T06:53:37.000Z","PartyId":1}]
+2013-10-29T06:54:16.148Z - info: Connecting to the sqlite db
+2013-10-29T06:54:16.149Z - info: Reading models 
+2013-10-29T06:54:16.475Z - info: Syncing the database
+2013-10-29T06:54:18.110Z - info: Registering the routes
+2013-10-29T06:54:18.179Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:54:18.179Z - info: AuthenticationController::constructor
+2013-10-29T06:54:18.179Z - info: Enter StateController constructor
+2013-10-29T06:54:18.182Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:54:18.233Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:54:18.000Z","updatedAt":"2013-10-29T06:54:18.000Z"}
+2013-10-29T06:54:18.233Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:54:18.000Z","updatedAt":"2013-10-29T06:54:18.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:54:18.000Z","updatedAt":"2013-10-29T06:54:18.000Z","PartyId":1}]
+2013-10-29T06:55:00.252Z - info: Connecting to the sqlite db
+2013-10-29T06:55:00.252Z - info: Reading models 
+2013-10-29T06:55:00.574Z - info: Syncing the database
+2013-10-29T06:55:01.888Z - info: Registering the routes
+2013-10-29T06:55:01.931Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:55:01.931Z - info: AuthenticationController::constructor
+2013-10-29T06:55:01.932Z - info: Enter StateController constructor
+2013-10-29T06:55:01.935Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:55:01.988Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:55:01.000Z","updatedAt":"2013-10-29T06:55:01.000Z"}
+2013-10-29T06:55:01.989Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:55:01.000Z","updatedAt":"2013-10-29T06:55:01.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:55:01.000Z","updatedAt":"2013-10-29T06:55:01.000Z","PartyId":1}]
+2013-10-29T06:55:22.505Z - info: Connecting to the sqlite db
+2013-10-29T06:55:22.505Z - info: Reading models 
+2013-10-29T06:55:22.833Z - info: Syncing the database
+2013-10-29T06:55:24.198Z - info: Registering the routes
+2013-10-29T06:55:24.244Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:55:24.245Z - info: AuthenticationController::constructor
+2013-10-29T06:55:24.245Z - info: Enter StateController constructor
+2013-10-29T06:55:24.248Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:55:24.298Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:55:24.000Z","updatedAt":"2013-10-29T06:55:24.000Z"}
+2013-10-29T06:55:24.299Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:55:24.000Z","updatedAt":"2013-10-29T06:55:24.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:55:24.000Z","updatedAt":"2013-10-29T06:55:24.000Z","PartyId":1}]
+2013-10-29T06:55:46.815Z - info: Connecting to the sqlite db
+2013-10-29T06:55:46.816Z - info: Reading models 
+2013-10-29T06:55:47.140Z - info: Syncing the database
+2013-10-29T06:55:48.743Z - info: Registering the routes
+2013-10-29T06:55:48.785Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:55:48.786Z - info: AuthenticationController::constructor
+2013-10-29T06:55:48.786Z - info: Enter StateController constructor
+2013-10-29T06:55:48.789Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:55:48.843Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:55:48.000Z","updatedAt":"2013-10-29T06:55:48.000Z"}
+2013-10-29T06:55:48.844Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:55:48.000Z","updatedAt":"2013-10-29T06:55:48.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:55:48.000Z","updatedAt":"2013-10-29T06:55:48.000Z","PartyId":1}]
+2013-10-29T06:57:34.227Z - info: Connecting to the sqlite db
+2013-10-29T06:57:34.228Z - info: Reading models 
+2013-10-29T06:57:34.554Z - info: Syncing the database
+2013-10-29T06:57:36.029Z - info: Registering the routes
+2013-10-29T06:57:36.073Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:57:36.073Z - info: AuthenticationController::constructor
+2013-10-29T06:57:36.073Z - info: Enter StateController constructor
+2013-10-29T06:57:36.076Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:57:36.125Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:57:36.000Z","updatedAt":"2013-10-29T06:57:36.000Z"}
+2013-10-29T06:57:36.125Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:57:36.000Z","updatedAt":"2013-10-29T06:57:36.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:57:36.000Z","updatedAt":"2013-10-29T06:57:36.000Z","PartyId":1}]
+2013-10-29T06:58:00.296Z - info: GET /api/v1/state called
+2013-10-29T06:58:00.296Z - info: StateController:get
+2013-10-29T06:58:00.301Z - info:  states: [{"name":"West Bengal","version":null,"id":1,"createdAt":"2013-10-29T06:57:36.000Z","updatedAt":"2013-10-29T06:57:36.000Z"}]
+2013-10-29T06:58:00.314Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:58:00.314Z - info: StateController:getConstituencies with stateId1
+2013-10-29T06:58:23.078Z - info: GET /api/v1/state called
+2013-10-29T06:58:23.078Z - info: StateController:get
+2013-10-29T06:58:23.085Z - info:  states: [{"name":"West Bengal","version":null,"id":1,"createdAt":"2013-10-29T06:57:36.000Z","updatedAt":"2013-10-29T06:57:36.000Z"}]
+2013-10-29T06:58:28.150Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:58:28.150Z - info: StateController:getConstituencies with stateId1
+2013-10-29T06:59:36.800Z - info: Connecting to the sqlite db
+2013-10-29T06:59:36.801Z - info: Reading models 
+2013-10-29T06:59:37.133Z - info: Syncing the database
+2013-10-29T06:59:38.835Z - info: Registering the routes
+2013-10-29T06:59:38.883Z - info: Enter UserController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:59:38.883Z - info: AuthenticationController::constructor
+2013-10-29T06:59:38.883Z - info: Enter StateController constructor
+2013-10-29T06:59:38.886Z - info: Enter PoliticianController constructor function app(req, res, next){ app.handle(req, res, next); }
+2013-10-29T06:59:38.933Z - info: party {"name":"Trinamul Party","version":1,"imageUrl":"trinamool_congress.png","id":1,"createdAt":"2013-10-29T06:59:38.000Z","updatedAt":"2013-10-29T06:59:38.000Z"}
+2013-10-29T06:59:38.933Z - info: politicians [{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":1,"createdAt":"2013-10-29T06:59:38.000Z","updatedAt":"2013-10-29T06:59:38.000Z","PartyId":1},{"name":"Mamata Banerjee","imageName":"Mamata_banerjee.jpg","versionNumber":1,"almaMater":"Jogesh Chandra Chaudhuri Law College","highestDegree":"Law degree","dateOfBirth":"11/7/60","link":"http://parliamentofindia.nic.in/ls/lok10/mp52.htm","ideology":"Populism, Socialism, Secularism","politicalCareerBeginning":"Congress (I) Party, 1970","id":2,"createdAt":"2013-10-29T06:59:38.000Z","updatedAt":"2013-10-29T06:59:38.000Z","PartyId":1}]
+2013-10-29T06:59:40.810Z - info: GET /api/v1/state called
+2013-10-29T06:59:40.811Z - info: StateController:get
+2013-10-29T06:59:40.815Z - info:  states: [{"name":"West Bengal","version":null,"id":1,"createdAt":"2013-10-29T06:59:38.000Z","updatedAt":"2013-10-29T06:59:38.000Z"}]
+2013-10-29T06:59:40.829Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T06:59:40.829Z - info: StateController:getConstituencies with stateId1
+2013-10-29T07:00:03.042Z - info: GET /api/v1/state called
+2013-10-29T07:00:03.044Z - info: StateController:get
+2013-10-29T07:00:03.050Z - info:  states: [{"name":"West Bengal","version":null,"id":1,"createdAt":"2013-10-29T06:59:38.000Z","updatedAt":"2013-10-29T06:59:38.000Z"}]
+2013-10-29T07:00:03.060Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T07:00:03.060Z - info: StateController:getConstituencies with stateId100
+2013-10-29T07:00:24.592Z - info: GET /api/v1/state called
+2013-10-29T07:00:24.592Z - info: StateController:get
+2013-10-29T07:00:24.597Z - info:  states: [{"name":"West Bengal","version":null,"id":1,"createdAt":"2013-10-29T06:59:38.000Z","updatedAt":"2013-10-29T06:59:38.000Z"}]
+2013-10-29T07:00:24.607Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T07:00:24.607Z - info: StateController:getConstituencies with stateId100
+2013-10-29T07:00:24.612Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T07:00:24.612Z - info: StateController:getConstituencies with stateId1
+2013-10-29T07:00:26.920Z - info: GET /api/v1/state/:stateId/constituency called
+2013-10-29T07:00:26.920Z - info: StateController:getConstituencies with stateId1

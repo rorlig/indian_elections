@@ -1,5 +1,5 @@
 /**
- * AuthorizationController controller class
+ * Politician controller class
  * Checks if the user is authorized to see the content...
  */
 

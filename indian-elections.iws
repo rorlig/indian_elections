@@ -20,11 +20,11 @@
     <file path="/DBHelper.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382079429827" ignored="false" />
     <file path="/a.dummy" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383000872345" ignored="false" />
     <file path="/Comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382124558467" ignored="false" />
-    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383014824668" ignored="false" />
+    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383028343486" ignored="false" />
     <file path="/AuthenticationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383015145210" ignored="false" />
     <file path="/CommentController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382126126705" ignored="false" />
     <file path="/PoliticianController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383028185902" ignored="false" />
-    <file path="/StateController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382127207473" ignored="false" />
+    <file path="/StateController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383029969341" ignored="false" />
     <file path="/AuthorizationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382127407055" ignored="false" />
     <file path="/models.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382586453109" ignored="false" />
     <file path="/user.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382982711371" ignored="false" />
@@ -327,19 +327,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Politician.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Politician.js">
+      <file leaf-file-name="PoliticianController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="778" selection-end="877" vertical-scroll-proportion="0.0">
+            <state line="84" column="34" selection-start="2283" selection-end="2457" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoliticianController.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
+      <file leaf-file-name="StateController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/StateController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="67" selection-start="4374" selection-end="4374" vertical-scroll-proportion="0.44871795">
+            <state line="63" column="78" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="state.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/state.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="33" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.64426875">
               <folding />
             </state>
           </provider>
@@ -375,7 +386,7 @@
       <file leaf-file-name="politician.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/politician.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="33" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
+            <state line="45" column="9" selection-start="0" selection-end="15493" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -393,16 +404,7 @@
       <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="40" selection-start="2588" selection-end="2595" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="62" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0">
+            <state line="93" column="35" selection-start="2804" selection-end="2811" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -418,8 +420,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/Rating.js" />
-        <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/config/express.js" />
         <option value="$PROJECT_DIR$/app/models/User.js" />
         <option value="$PROJECT_DIR$/test/user.js" />
@@ -430,17 +430,19 @@
         <option value="$PROJECT_DIR$/app/models/index.js" />
         <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
         <option value="$PROJECT_DIR$/app/models/Favorite.js" />
-        <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/test/politician.js" />
         <option value="$PROJECT_DIR$/app/controllers/PoliticianController.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
+        <option value="$PROJECT_DIR$/app/controllers/StateController.js" />
+        <option value="$PROJECT_DIR$/test/state.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="698" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -743,7 +745,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="698" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="788" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -766,8 +768,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.8079585" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19204152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.8338323" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16616766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -839,18 +841,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="36" selection-start="3604" selection-end="3604" vertical-scroll-proportion="2.942029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="625" selection-end="760" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testDB.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="30" selection-start="1006" selection-end="1017" vertical-scroll-proportion="0.0">
@@ -900,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Rating.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="65" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Favorite.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
@@ -921,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/politician.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="33" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="131" column="18" selection-start="3565" selection-end="3569" vertical-scroll-proportion="-3.9615386">
@@ -937,16 +913,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/politician.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="0" selection-end="15493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="40" selection-start="2588" selection-end="2595" vertical-scroll-proportion="0.0">
+        <state line="93" column="35" selection-start="2804" selection-end="2811" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Rating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="65" selection-end="103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="67" selection-start="4374" selection-end="4374" vertical-scroll-proportion="0.44871795">
+        <state line="84" column="34" selection-start="2283" selection-end="2457" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/StateController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="78" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="33" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.64426875">
           <folding />
         </state>
       </provider>
