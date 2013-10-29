@@ -7,7 +7,7 @@
 // controllers
 var UserController =  require('../app/controllers/UserController');
 var AuthenticationController = require('../app/controllers/AuthenticationController');
-//var authorizationController = new (require('../app/controllers/AuthorizationController'))();
+var PartyController = require('../app/controllers/PartyController');
 var StateController = require('../app/controllers/StateController');
 var PoliticianController =  require('../app/controllers/PoliticianController');
 
@@ -23,9 +23,10 @@ var express = require('express');
 module.exports = function (app,sequelize) {
 	var userController =  new UserController(app);
 	var authenticationController = new AuthenticationController(app);
-	var authorizationController = new (require('../app/controllers/AuthorizationController'))();
+//	var authorizationController = new (require('../app/controllers/AuthorizationController'))();
 	var stateController = new StateController(app);
 	var politicianController = new PoliticianController(app);
+	var partyController  = new PartyController(app);
 	// get the user information...
 	app.get('/api/v1/user',
 		authenticationController.isAuthenticated,
@@ -108,6 +109,13 @@ module.exports = function (app,sequelize) {
 		AppLogger.log('info', 'GET /api/v1/party/ called');
 		partyController.get(req,res);
 	})
+
+	/** get all the politicians in party **/
+	app.get('/api/v1/party/:partyId', function(req,res){
+		AppLogger.log('info', 'GET /api/v1/party/partyId called');
+		partyController.getMembers(req,res);
+	})
+
 
 
 //	// Serve up swagger ui at /docs via static route
