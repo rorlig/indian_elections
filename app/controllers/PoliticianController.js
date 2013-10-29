@@ -81,7 +81,7 @@ var politician_controller = (function() {
 		AppLogger.info('limit: ' + limit +  ' offset:' + offset);
 		Politician.findAll({include: [Party]}).success(function(result){
 			AppLogger.info("count: " + result.count + " result: " + JSON.stringify(result));
-			var response = responseUtils.get(200, ""+ JSON.stringify(result), 'Politician', false);
+			var response = responseUtils.get(200, result, 'Politician', false);
 			res.send(response);
 		}).error(function(error){
 			AppLogger.info("error:" + error);
@@ -99,11 +99,11 @@ var politician_controller = (function() {
 			Politician.findOrCreate(req.body).success(function(politician,created){
 				console.log(politician.id);
 				console.log(created);
-				var response = responseUtils.get(200, JSON.stringify(politician), 'Politician', false);
+				var response = responseUtils.get(200, politician, 'Politician', false);
 				res.send(response);
 
 			}).error(function(error){
-				var response = responseUtils.get(666, 'Error in Creating Politician' +JSON.stringify(error), 'Error', true);
+				var response = responseUtils.get(666, 'Error in Creating Politician: ' +JSON.stringify(error), 'Error', true);
 				AppLogger.log('info', "response returned:" + JSON.stringify(response));
 				res.send(response);
 			})
@@ -115,11 +115,11 @@ var politician_controller = (function() {
 		//todo need to populate ratings and comments...
 		AppLogger.info('PoliticianController getDetails politicianId:' + req.params.politicianId);
 		Politician.find({where: {id: req.params.politicianId}, include: [Party, Rating, Favorite, Comment]}).success(function(politician){
-			var response = responseUtils.get(200, JSON.stringify(politician), 'Politician', false);
+			var response = responseUtils.get(200, politician, 'Politician', false);
 			AppLogger.info('PoliticianController getDetails politicianId:' + JSON.stringify(politician));
 			res.send(response);
 		}).error(function(error){
-			var response = responseUtils.get(666, 'Politician not found' +JSON.stringify(error), 'Error', true);
+			var response = responseUtils.get(666, 'Politician not found ' +JSON.stringify(error), 'Error', true);
 //			AppLogger.log('info', "response returned:" + JSON.stringify(response));
 			res.send(response);
 		})
@@ -130,8 +130,38 @@ var politician_controller = (function() {
 
 	//rate a  politician
 	PoliticianController.prototype.rate = function (req,res,next) {
+
+		//create rating element...
+
 		AppLogger.info('PoliticianController:rate');
-		res.send('TODO - PoliticianController:rate');
+
+		Politician.find({where: {id: req.params.politicianId}}).success(function(politician){
+
+			if (req.body.ratingValue === undefined || req.body.ratingValue==""){
+				var response = responseUtils.get(666, "Rating Value missing in the Request Body", 'Error', false);
+				res.send(response);
+			} else {
+			   Rating.create({ratingValue:req.body.ratingValue}).success(function(rating){
+//				   politician.setRating(rating);
+//				   req.user.setRating(rating);
+				   rating.setPolitician(politician);
+				   rating.setUser(req.user);
+//				   req.user.setPolitician(politician);
+				   rating.save();
+			   })
+			   var response = responseUtils.get(200, politician, 'Politician', false);
+			   AppLogger.info('PoliticianController getDetails politicianId:' + JSON.stringify(politician));
+			   res.send(response);
+			}
+
+		}).error(function(error){
+				var response = responseUtils.get(666, 'Politician not found' +JSON.stringify(error), 'Error', true);
+				res.send(response);
+		})
+
+
+		//todo updating a rating?
+//		res.send('TODO - PoliticianController:rate');
 
 
 	}
@@ -139,8 +169,35 @@ var politician_controller = (function() {
 
 	//favorite a  politician
 	PoliticianController.prototype.favorite = function (req,res,next) {
-		AppLogger.info('PoliticianController:favorite');
-		res.send('TODO - PoliticianController:favorite');
+		AppLogger.info('PoliticianController:favorite: ' + req.params.politicianId);
+		//create rating element...
+
+
+		Politician.find({where: {id: req.params.politicianId}}).success(function(politician){
+
+			if (req.body.favoriteValue === undefined || req.body.favoriteValue==""){
+				var response = responseUtils.get(666, "Rating Value missing in the Request Body", 'Error', false);
+				res.send(response);
+			} else {
+				Favorite.create({favoriteValue:req.body.favoriteValue}).success(function(favorite){
+//				   politician.setRating(rating);
+//				   req.user.setRating(rating);
+					favorite.setPolitician(politician);
+					favorite.setUser(req.user);
+//				   req.user.setPolitician(politician);
+					rating.save();
+				})
+				var response = responseUtils.get(200, politician, 'Politician', false);
+				AppLogger.info('PoliticianController getDetails politicianId:' + JSON.stringify(politician));
+				res.send(response);
+			}
+
+		}).error(function(error){
+				AppLogger.info('Politician not found in db');
+				var response = responseUtils.get(666, 'Politician not found:' +JSON.stringify(error), 'Error', true);
+				res.send(response);
+		})
+//		res.send('TODO - PoliticianController:favorite');
 
 
 	}

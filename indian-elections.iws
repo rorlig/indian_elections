@@ -20,16 +20,16 @@
     <file path="/DBHelper.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382079429827" ignored="false" />
     <file path="/a.dummy" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383000872345" ignored="false" />
     <file path="/Comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382124558467" ignored="false" />
-    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382734303954" ignored="false" />
-    <file path="/AuthenticationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382589996506" ignored="false" />
+    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383014824668" ignored="false" />
+    <file path="/AuthenticationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383015145210" ignored="false" />
     <file path="/CommentController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382126126705" ignored="false" />
-    <file path="/PoliticianController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383013186830" ignored="false" />
+    <file path="/PoliticianController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383021120092" ignored="false" />
     <file path="/StateController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382127207473" ignored="false" />
     <file path="/AuthorizationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382127407055" ignored="false" />
     <file path="/models.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382586453109" ignored="false" />
     <file path="/user.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382982711371" ignored="false" />
     <file path="/UserController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382734931768" ignored="false" />
-    <file path="/Favorite.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382599201240" ignored="false" />
+    <file path="/Favorite.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383020812524" ignored="false" />
     <file path="/testDB.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382712109548" ignored="false" />
     <file path="/index.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382999696541" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-3.0.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440844" ignored="false" />
@@ -255,7 +255,7 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-context-2.5.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440849" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tool-2.5.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440849" ignored="false" />
     <file path="/express.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382724313421" ignored="false" />
-    <file path="/politician.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382985709464" ignored="false" />
+    <file path="/politician.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383021222820" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,15 +327,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dao-factory.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/dao-factory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="333" column="41" selection-start="10695" selection-end="10695" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Politician.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Politician.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -345,37 +336,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoliticianController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PoliticianController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="51" selection-start="3881" selection-end="3881" vertical-scroll-proportion="-0.25">
+            <state line="177" column="78" selection-start="5737" selection-end="5750" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Party.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Party.js">
+      <file leaf-file-name="Favorite.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Favorite.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="294" selection-end="393" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="politician.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Rating.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Rating.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="65" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="politician.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/politician.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="38" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="39" selection-start="1786" selection-end="1796" vertical-scroll-proportion="0.0">
+            <state line="28" column="17" selection-start="299" selection-end="299" vertical-scroll-proportion="0.37770897">
               <folding />
             </state>
           </provider>
@@ -384,16 +375,25 @@
       <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="18" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.0">
+            <state line="118" column="8" selection-start="2412" selection-end="2614" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="26" selection-start="1133" selection-end="1133" vertical-scroll-proportion="-0.5769231">
+            <state line="70" column="14" selection-start="2088" selection-end="2128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="17" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -402,7 +402,7 @@
       <file leaf-file-name="UserController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="10" selection-start="1100" selection-end="2035" vertical-scroll-proportion="0.0">
+            <state line="55" column="62" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -418,22 +418,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/Constituency.js" />
-        <option value="$PROJECT_DIR$/app/models/State.js" />
         <option value="$PROJECT_DIR$/app/models/Rating.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/config/express.js" />
         <option value="$PROJECT_DIR$/app/models/User.js" />
-        <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/test/user.js" />
         <option value="$PROJECT_DIR$/test/testDB.js" />
         <option value="$PROJECT_DIR$/app/controllers/UserController.js" />
         <option value="$PROJECT_DIR$/app/models/Party.js" />
         <option value="$PROJECT_DIR$/app/models/Politician.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/test/politician.js" />
         <option value="$PROJECT_DIR$/app/models/index.js" />
+        <option value="$PROJECT_DIR$/app/controllers/AuthenticationController.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
+        <option value="$PROJECT_DIR$/app/models/Favorite.js" />
         <option value="$PROJECT_DIR$/app/controllers/PoliticianController.js" />
+        <option value="$PROJECT_DIR$/test/politician.js" />
       </list>
     </option>
   </component>
@@ -839,21 +839,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/home/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="22" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="36" selection-start="3604" selection-end="3604" vertical-scroll-proportion="2.942029" />
@@ -873,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="18" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/dao-factory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="333" column="41" selection-start="10695" selection-end="10695" vertical-scroll-proportion="0.0">
@@ -894,37 +872,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="10" selection-start="1100" selection-end="2035" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="26" selection-start="1133" selection-end="1133" vertical-scroll-proportion="-0.5769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Politician.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="778" selection-end="877" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="39" selection-start="1786" selection-end="1796" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/politician.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="38" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -938,9 +888,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="17" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Politician.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="778" selection-end="877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="62" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="8" selection-start="2412" selection-end="2614" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="14" selection-start="2088" selection-end="2128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Rating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="65" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Favorite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="51" selection-start="3881" selection-end="3881" vertical-scroll-proportion="-0.25">
+        <state line="177" column="78" selection-start="5737" selection-end="5750" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/politician.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="17" selection-start="299" selection-end="299" vertical-scroll-proportion="0.37770897">
           <folding />
         </state>
       </provider>

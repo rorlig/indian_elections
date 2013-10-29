@@ -6,7 +6,7 @@
 
 // controllers
 var UserController =  require('../app/controllers/UserController');
-//var authenticationController = new (require('../app/controllers/AuthenticationController'))();
+var AuthenticationController = require('../app/controllers/AuthenticationController');
 //var authorizationController = new (require('../app/controllers/AuthorizationController'))();
 //var stateController = new (require('../app/controllers/StateController'))();
 var PoliticianController =  require('../app/controllers/PoliticianController');
@@ -22,7 +22,7 @@ var express = require('express');
 
 module.exports = function (app,sequelize) {
 	var userController =  new UserController(app);
-	var authenticationController = new (require('../app/controllers/AuthenticationController'))();
+	var authenticationController = new AuthenticationController(app);
 	var authorizationController = new (require('../app/controllers/AuthorizationController'))();
 	var stateController = new (require('../app/controllers/StateController'))();
 	var politicianController = new PoliticianController(app);
@@ -61,7 +61,7 @@ module.exports = function (app,sequelize) {
 	/** rate a politician  **/
 	app.post('/api/v1/politician/:politicianId/rate',
 		authenticationController.isAuthenticated,
-		authorizationController.isAuthorized, function(req,res){
+		function(req,res){
 			AppLogger.log('info', 'POST /api/v1/politician/:politicianId/rate called');
 
 			politicianController.rate(req,res);
@@ -70,9 +70,8 @@ module.exports = function (app,sequelize) {
 	/** favorite a politician  **/
 	app.post('/api/v1/politician/:politicianId/favorite',
 		authenticationController.isAuthenticated,
-		authorizationController.isAuthorized, function(req,res){
+		function(req,res){
 			AppLogger.log('info', 'POST /api/v1/politician/:politicianId/favorite called');
-
 			politicianController.favorite(req,res);
 	});
 

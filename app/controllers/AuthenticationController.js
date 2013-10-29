@@ -11,12 +11,14 @@ var responseUtils = new ResponseUtils();
 
 
 var authentication_controller = (function() {
+	var User;
 
 	/**
 	 * Authorization Controller actions.
 	 */
-	function AuthenticationController(){
+	function AuthenticationController(app){
 	   AppLogger.log('info', 'AuthenticationController::constructor');
+	   User = app.get('models').User;
 	}
 
 
@@ -30,12 +32,26 @@ var authentication_controller = (function() {
 			AppLogger.log('info', "userId is undefined");
 			var response = responseUtils.get(401, 'UserId missing in the request', 'Error', true);
 			AppLogger.log('info', "response returned:" + JSON.stringify(response));
-
 			res.send(response)
 		} else {
+			User.find(userId).success(function(user){
+				AppLogger.log('info', "userId found " + JSON.stringify(user));
+				if (user == null){
+					var response = responseUtils.get(401, 'User not found in database', 'Error', true);
+					AppLogger.log('info', "response returned:" + JSON.stringify(response));
+					res.send(response);
+				}  else {
+					req.user = user;
+					next();
+				}
+			}).error(function(error){
+				var response = responseUtils.get(401, 'User not found in database', 'Error', true);
+				AppLogger.log('info', "response returned:" + JSON.stringify(response));
+				res.send(response);
+			})
 			//check in db...
 			//todo
-			next();
+//			next();
 		}
 
 
