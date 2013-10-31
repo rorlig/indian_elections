@@ -9,11 +9,23 @@ var ResponseUtils  = require('../common/ResponseUtils');
 var responseUtils = new ResponseUtils();
 var Sequelize = require('sequelize');
 
+
+var async = require('async');
+
 var testParty = {
 	name: "Trinamul Party",
 	imageUrl:"trinamool_congress.png",
 	version: 1
 }
+
+var testParty2 = {
+	name: "Samajwadi Party",
+	imageUrl:"samajwadi_party.png",
+	version: 1
+}
+
+
+
 
 var testPolitician = {
 	name: "Mamata Banerjee",
@@ -27,6 +39,18 @@ var testPolitician = {
 	ideology:"Populism, Socialism, Secularism"
 }
 
+var testPolitician2 = {
+	name: "Akhilesh Yadav",
+	imageName:"akhilesh_yadav.jpg",
+	almaMater:"University of Sydney",
+	highestDegree:"Master's degree environmental engineering",
+	dateOfBirth:"1/7/73",
+	link:"http://www.parliamentofindia.nic.in/ls/lok13/biodata/13UP67.htm",
+	politicalCareerBeginning:"Samajwadi Party,2000",
+	versionNumber: 1,
+	ideology:"Populism, Democratic socialism, Secularism, Social conservatism"
+}
+
 
 var politician_controller = (function() {
 	var Politician;
@@ -34,6 +58,8 @@ var politician_controller = (function() {
 	var Rating;
 	var Comment;
 	var Favorite;
+	var sequelize;
+
 
 	/**
 	 * Politician Controller actions.
@@ -47,16 +73,18 @@ var politician_controller = (function() {
 		Rating = models.Rating;
 		Comment = models.Comment;
 		Favorite = models.Favorite;
+		sequelize = app.get('models').sequelize;
+
 
 		/** testing stuff **/
 		Politician.create(testPolitician).success(function(politician1){
-			Politician.create(testPolitician).success(function(politician2){
+//			Politician.create(testPolitician).success(function(politician2){
 
 				Party.create(testParty).success(function(party){
 //					politician1.setParty(party);
 //					politician2.setParty(party);
 
-					party.setPoliticians([politician1, politician2]).success(function(politicians){
+					party.setPoliticians([politician1]).success(function(politicians){
 					   AppLogger.info("party " + JSON.stringify(party));
 					   AppLogger.info("politicians " + JSON.stringify(politicians));
 
@@ -65,7 +93,25 @@ var politician_controller = (function() {
 					})
 				})
 
-			})
+//			})
+		})
+
+		/** 2nd politician testing stuff **/
+		Politician.create(testPolitician2).success(function(politician1){
+
+				Party.create(testParty2).success(function(party){
+//					politician1.setParty(party);
+//					politician2.setParty(party);
+
+					party.setPoliticians([politician1]).success(function(politicians){
+						AppLogger.info("party " + JSON.stringify(party));
+						AppLogger.info("politicians " + JSON.stringify(politicians));
+
+					}).error(function(error){
+							AppLogger.info("error in politician associations"  + JSON.stringify(error));
+						})
+				})
+
 		})
 
 	}
@@ -78,16 +124,142 @@ var politician_controller = (function() {
 		var limit = req.query.limit!=undefined&&req.query.limit<=20?req.query.limit:20;
 		var offset =   req.query.offset!=undefined&&req.query.offset>=0?req.query.offset:0;
 
-		AppLogger.info('limit: ' + limit +  ' offset:' + offset);
-		Politician.findAll({include: [Party]}).success(function(result){
-			AppLogger.info("count: " + result.count + " result: " + JSON.stringify(result));
-			var response = responseUtils.get(200, result, 'Politician', false);
-			res.send(response);
-		}).error(function(error){
-			AppLogger.info("error:" + error);
-			var response = responseUtils.get(666, "Undefined Error", 'Error', true);
-			res.send(response);
-		});
+		//if orderBy is not present
+		var orderBy = req.query.orderBy!=undefined||req.query.orderBy==""?req.query.orderBy:"name"
+
+
+	    //todo fix this - refactor it ... very ugly..
+		var ratingRawSql = "SELECT Politicians.*, Parties.id, Ratings.*, avg (Ratings.ratingValue) as averageRating from Politicians,Parties, Ratings where Politicians.id = Ratings.PoliticianId and Politicians.PartyId = Parties.id group by Politicians.id order by  averageRating desc";
+
+		AppLogger.info('limit: ' + limit +  ' offset:' + offset + ' orderBy: ' + orderBy);
+		if (orderBy =="rating"){
+			AppLogger.info("orderBy:rating");
+			sequelize.query(ratingRawSql,  null, {raw: true}).success(function(politicians){
+				AppLogger.info("politicians" + JSON.stringify(politicians));
+				var resultsJSON = [];
+				var numRunningQueries = 0;
+				async.forEach(politicians, function(politician){
+					numRunningQueries++;
+					Party.find({where: {id: politician.PartyId}}).success(function(party){
+						var politicianJSON = JSON.parse(JSON.stringify(politician));
+
+
+						politician.party = party;
+							politicianJSON.party = party;
+							resultsJSON.push(politicianJSON);
+
+							numRunningQueries--;
+							if (numRunningQueries==0){
+								var response = responseUtils.get(200, resultsJSON, 'Politician', false);
+								res.send(response);
+							}
+						})
+				.error(function(error){
+					AppLogger.info("error:" + error);
+					var response = responseUtils.get(666, "Undefined Error", 'Error', true);
+					res.send(response);
+				});
+			})
+			})
+		}  else   {
+//		if (orderBy == "name")
+			AppLogger.info("orderBy:name");
+			var chainer = new Sequelize.Utils.QueryChainer;
+
+//			chainer.add(Politician.findAll({include: [Rating], order: "name" }).run().
+//				.add()
+			Politician.findAll({include: [Rating], order: "name" }).success(function(politicians){
+				var resultsJSON = [];
+				var numRunningQueries = 0;
+				async.forEach(politicians, function(politician){
+					numRunningQueries++;
+					Party.find({where: {id: politician.PartyId}}).success(function(party){
+						AppLogger.info(" party: " + JSON.stringify(party));
+						var politicianJSON = JSON.parse(JSON.stringify(politician));
+//						AppLogger.info(" politician at  " + i + " is " + JSON.stringify(politician));
+						resultsJSON.push(politicianJSON);
+						politician.party = party;
+						politicianJSON.party = party;
+						numRunningQueries--;
+						if (numRunningQueries==0){
+							var response = responseUtils.get(200, resultsJSON, 'Politician', false);
+							res.send(response);
+							}
+						})
+					} )
+
+//					return politicians;
+			})
+////				.then(function(politicians){
+////					AppLogger.info(" politicians: " + JSON.stringify(politicians) + " ");
+////
+////					var resultsJSON = [];
+////					var numRunningQueries = 0
+////
+////					for (var i=0; i< politicians.length; i++) {
+////					numRunningQueries++;
+////					var politician = politicians[i];
+////				    var politicianJSON = JSON.parse(JSON.stringify(politician));
+////					AppLogger.info(" politician at  " + i + " is " + JSON.stringify(politician));
+////
+////
+////
+////					Party.find({where: {id: politician.PartyId}}).success(function(party){
+////							AppLogger.info(" party: " + JSON.stringify(party));
+////	//						politician.party = party;
+////						politicianJSON.party = party;
+////						AppLogger.info(" politician: " + JSON.stringify(politician));
+////						AppLogger.info(" politicianJSON: " + JSON.stringify(politicianJSON));
+////						numRunningQueries--;
+////						resultsJSON.push(politicianJSON);
+//////						politicianJSON = null;
+////						if (numRunningQueries==0)   {
+////							var response = responseUtils.get(200, resultsJSON, 'Politician', false);
+////							res.send(response);
+////							AppLogger.info(" resultsJSON: " + JSON.stringify(resultsJSON));
+////
+////						}
+////
+////					})
+////				}
+//
+//
+////				return resultsJSON;
+//
+//			  }
+//			)
+//			.then(function(politicianJSON){
+////				AppLogger.info(" size : "  + politicianJSON.length + "  now politicians: " + JSON.stringify(politicianJSON) );
+//				var response = responseUtils.get(200, politicianJSON, 'Politician', false);
+//				res.send(response);
+//			})
+//			Politician.findAll({include: [Rating], order: "name" }).success(function(results){
+//				resultsJSON = JSON.parse(JSON.stringify(results));
+//				for (var i=0; i< results.length; i++) {
+//					var result = results[i];
+//					var resultJSON = resultsJSON[i];
+//					Party.find({where: {id: result.PartyId}}).success(function(party){
+//						AppLogger.info("count: " + result.count + " party: " + JSON.stringify(party));
+//						result.party = party;
+//						resultJSON.party = party;
+//						AppLogger.info(" result: " + JSON.stringify(result));
+//						AppLogger.info(" result: " + JSON.stringify(resultJSON));
+//					})
+//				}
+//				AppLogger.info("count: " + results.count + " result: " + JSON.stringify(results));
+//				AppLogger.info("count: " + resultsJSON.party + " result: " + JSON.stringify(resultsJSON));
+//
+//				var response = responseUtils.get(200, resultsJSON, 'Politician', false);
+//				res.send(response);
+//
+//
+//			}).error(function(error){
+//				AppLogger.info("error:" + error);
+//				var response = responseUtils.get(666, "Undefined Error", 'Error', true);
+//				res.send(response);
+//			});
+		}
+//		else
 //		var response = responseUtils.get(200, "politician", 'User', true);
 //		res.send(response);
 //		res.send('TODO - PoliticianController:get');

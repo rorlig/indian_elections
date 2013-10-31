@@ -86,6 +86,17 @@ describe('TEST POST /api/v1/user', function(){
 		email: "guptgaurav@gmail.com"
 	}
 
+	var testUser2 = {
+		name: "Vartika Srivastava",
+		firstName: "Vartika",
+		lastName: "Srivastava",
+		accessToken:"xyz",
+		accessTokenExpiration:2,
+		networkName:"Facebook",
+		networkId: 100002,
+		email: "xxy@gmail.com"
+	}
+
 	var nameMissingUser = {
 		firstName: "Gaurav",
 		lastName: "Gupta",
@@ -191,11 +202,24 @@ describe('TEST POST /api/v1/user', function(){
 			});
 	})
 
-	it ('should return 200 OK if user in database', function(done){
+	it ('should return 200 OK if user is in JSON request ', function(done){
 		request(url)
 			.post('/api/v1/user')
 			.set('Accept', 'application/json')
 			.send(testUser)
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+				assert.equal(body.responseCode, 200);
+				done();
+			});
+	})
+
+	it ('should return 200 OK if on adding 2nd user ', function(done){
+		request(url)
+			.post('/api/v1/user')
+			.set('Accept', 'application/json')
+			.send(testUser2)
 			.end(function(err, res) {
 				assert.equal(err, null);
 				var body = res.body;

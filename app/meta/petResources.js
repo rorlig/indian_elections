@@ -12,15 +12,15 @@ function writeResponse (res, data) {
 
 exports.findById = {
 	'spec': {
-		"description" : "Operations about pets",
-		"path" : "/pet.{format}/{petId}",
-		"notes" : "Returns a pet based on ID",
-		"summary" : "Find pet by ID",
+		"description" : "Operations about politicians",
+		"path" : "/politician.{format}/{politicianId}",
+		"notes" : "Returns a politician based on ID",
+		"summary" : "Find politician by ID",
 		"method": "GET",
-		"params" : [param.path("petId", "ID of pet that needs to be fetched", "string")],
-		"responseClass" : "Pet",
+		"params" : [param.path("politicianId", "ID of politician that needs to be fetched", "string")],
+		"responseClass" : "User",
 		"errorResponses" : [swe.invalid('id'), swe.notFound('pet')],
-		"nickname" : "getPetById"
+		"nickname" : "getPoliticianById"
 	},
 	'action': function (req,res) {
 		if (!req.params.petId) {

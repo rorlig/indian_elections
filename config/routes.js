@@ -84,6 +84,15 @@ module.exports = function (app,sequelize) {
 			politicianController.comment(req,res);
 	})
 
+
+	/** comment on a politician  **/
+	app.get('/api/v1/politician/:politicianId/comment',
+		authenticationController.isAuthenticated,
+		function(req,res){
+			AppLogger.log('info', 'GET /api/v1/politician/:politicianId/comment called');
+//			politicianController.comment(req,res);
+			res.send('TODO');
+		})
 	/** get all the state **/
 	app.get('/api/v1/state', function(req,res){
 		AppLogger.log('info', 'GET /api/v1/state called');

@@ -17,8 +17,17 @@ var ratingBadFormat =  {
 }
 
 var rating =  {
+	ratingValue: 5
+}
+
+var ratingLow =  {
 	ratingValue: 1
 }
+
+var rating2 =  {
+	ratingValue: 2
+}
+
 
 
 var favoriteBadFormat = {
@@ -113,6 +122,20 @@ describe('Testing GET /api/v1/politician/:politicianId', function(){
 //				console.log("res body: " + JSON.stringify(body));
 				//check everything works...
 				assert.equal(body.responseCode, 666);
+				done();
+			});
+	})
+
+	it('should return politician ratings and comments if politician Id exists', function(done){
+		request(url)
+			.get('/api/v1/politician/1')
+			.set('Accept', 'application/json')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 200);
 				done();
 			});
 	})
@@ -228,10 +251,42 @@ describe('Testing POST /api/v1/politician/:politicianId/rate', function(){
 
 	it('should return 200 OK', function(done){
 		request(url)
-			.post('/api/v1/politician/1/rate')
+			.post('/api/v1/politician/2/rate')
 			.set('Accept', 'application/json')
 			.set('UserId','1')
 			.send(rating)
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 200);
+				done();
+			});
+	})
+
+	it('should return 200 OK for 2nd rating of politician', function(done){
+		request(url)
+			.post('/api/v1/politician/2/rate')
+			.set('Accept', 'application/json')
+			.set('UserId','2')
+			.send(rating2)
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 200);
+				done();
+			});
+	})
+
+	it('should return 200 OK for rating low', function(done){
+		request(url)
+			.post('/api/v1/politician/1/rate')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.send(ratingLow)
 			.end(function(err, res) {
 				assert.equal(err, null);
 				var body = res.body;

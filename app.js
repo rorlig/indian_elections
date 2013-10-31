@@ -9,11 +9,11 @@ var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var fs = require('fs');
-var swagger_models = require('./app/meta/swagger-models');
+var swagger_models = require('./app/meta/models');
 
 var petResources = require("./app/meta/petResources.js");
 
-
+//var swaggerResources = require('./app/meta/swaggerResources.js')
 
 //define the environment ...
 var env = process.env.NODE_ENV || 'development'
@@ -83,12 +83,12 @@ sequelize.sync({force:false}).success(function(){
 	swagger.setAppHandler(app);
 
 	swagger.addModels(swagger_models)
-		.addGet(petResources.findByTags)
-		.addGet(petResources.findByStatus)
 		.addGet(petResources.findById)
-		.addPost(petResources.addPet)
-		.addPut(petResources.updatePet)
-		.addDelete(petResources.deletePet);
+		.addGet(petResources.findByStatus);
+//		.addGet(petResources.findById);
+//		.addPost(petResources.addPet)
+//		.addPut(petResources.updatePet)
+//		.addDelete(petResources.deletePet);
 
 // Configures the app's base path and api version.
 	swagger.configure("http://localhost:3001/", "0.1");
