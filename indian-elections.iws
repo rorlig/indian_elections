@@ -7,7 +7,7 @@
     <file path="/app.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383068611681" ignored="false" />
     <file path="/Dummy.txt" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382981323878" ignored="false" />
     <file path="/package.json" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382590096741" ignored="false" />
-    <file path="/config.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382639456305" ignored="false" />
+    <file path="/config.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383261389398" ignored="false" />
     <file path="/politicians.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382077341697" ignored="false" />
     <file path="/Constituency.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382596856001" ignored="false" />
     <file path="/State.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382595697302" ignored="false" />
@@ -18,7 +18,7 @@
     <file path="/Rating.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382649060442" ignored="false" />
     <file path="$PROJECT_DIR$/app/models/Comments.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382078448314" ignored="false" />
     <file path="/DBHelper.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382079429827" ignored="false" />
-    <file path="/a.dummy" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383197667059" ignored="false" />
+    <file path="/a.dummy" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383261338164" ignored="false" />
     <file path="/Comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382124558467" ignored="false" />
     <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383260901784" ignored="false" />
     <file path="/AuthenticationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383015145210" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="/UserController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382734931768" ignored="false" />
     <file path="/Favorite.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383020812524" ignored="false" />
     <file path="/testDB.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382712109548" ignored="false" />
-    <file path="/index.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382999696541" ignored="false" />
+    <file path="/index.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383261373976" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-lang-3.0.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440844" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-jdbc-3.0.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440844" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JBoss/lib/jbossIntegration.jar!/descriptors/jboss-deployment-structure-1_1.xsd" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382673440844" ignored="false" />
@@ -330,8 +330,19 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="41" selection-start="1016" selection-end="1061" vertical-scroll-proportion="0.0">
+            <state line="44" column="61" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="46" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -363,37 +374,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/sequelize-mysql/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="507" column="26" selection-start="16159" selection-end="16159" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="29" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.9095238">
+            <state line="93" column="29" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="express.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/express.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="25" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.25">
               <folding />
             </state>
           </provider>
@@ -427,8 +429,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/StateController.js" />
-        <option value="$PROJECT_DIR$/test/state.js" />
         <option value="$PROJECT_DIR$/test/party.js" />
         <option value="$PROJECT_DIR$/app/controllers/PartyController.js" />
         <option value="$PROJECT_DIR$/app/common/api-docs.json.js" />
@@ -443,13 +443,15 @@
         <option value="$PROJECT_DIR$/node_modules/sequelize/lib/utils.js" />
         <option value="$PROJECT_DIR$/app/controllers/PoliticianController.js" />
         <option value="$PROJECT_DIR$/config/routes.js" />
+        <option value="$PROJECT_DIR$/app/models/index.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="822" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -521,7 +523,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,11 +537,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sequelize" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indian-elections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indian-elections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -728,20 +744,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="822" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="817" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="IntelliGuard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32281205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32386363" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.67094016" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.6771879" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -750,12 +767,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.8938307" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6771879" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.8938307" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32386363" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -824,25 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/meta/swaggerResources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/meta/petResources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/comment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -862,13 +859,6 @@
     <entry file="file://$PROJECT_DIR$/test/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="224" column="27" selection-start="5232" selection-end="5232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="41" selection-start="1016" selection-end="1061" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -929,9 +919,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="25" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="61" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="29" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.9095238">
+        <state line="93" column="29" selection-start="2896" selection-end="2896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.25">
           <folding />
         </state>
       </provider>

@@ -15,6 +15,7 @@ module.exports = {
 		root: rootPath,
 		username: "root",  //enter your username
 		password: "123456",
+		dbName: 'indian_elections_2014',
 		dbOptions: {
 			// custom host; default: localhost
 			host: 'localhost',

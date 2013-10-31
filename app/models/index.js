@@ -13,7 +13,7 @@ var Sequelize = require('sequelize-mysql').sequelize
 
 
 //create the db with the proper dbOptions...
-var sequelize = new Sequelize('indian_elections_2014', config.username, config.password, config.dbOptions);
+var sequelize = new Sequelize(config.username,config.username, config.password, config.dbOptions);
 // load models
 
 var models = [
