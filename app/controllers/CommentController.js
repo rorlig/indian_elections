@@ -34,16 +34,18 @@ var comment_controller = (function() {
 
 	//get the comments for a politician  -- move to comment controller...
 	CommentController.prototype.get = function (req,res,next) {
-		AppLogger.info('CommentController get: ' + req.params.politicianId);
+		AppLogger.info('CommentController get: ' + req.params.politicianId );
 
 
 		var limit = req.query.limit!=undefined&&req.query.limit<=20?req.query.limit:20;
 		var offset =   req.query.offset!=undefined&&req.query.offset>=0?req.query.offset:0;
 
-		Comment.find({where: {PoliticianId: req.params.politicianId}, offset: offset, limit: limit}).success(function(comments){
+		AppLogger.info('limit:  ' + limit +  ' offset: '  + offset);
+
+		Comment.findAll({where: {PoliticianId: req.params.politicianId}, offset: offset, limit: limit}).success(function(comments){
 			if (comments == null) comments = [];
 			var response = responseUtils.get(200, comments, 'Comment', false);
-			AppLogger.info('PoliticianController created new comment politicianId:' + JSON.stringify(comments));
+			AppLogger.info('comments returned:' + JSON.stringify(comments));
 			res.send(response);
 		}).error(function(error){
 				AppLogger.info('Comment not found in db');

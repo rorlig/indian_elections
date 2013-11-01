@@ -38,13 +38,7 @@ var favorite = {
 	favoriteValue: "Yes"
 }
 
-var commentBadFormat = {
 
-}
-
-var comment = {
-	commentText: "This is a test comment"
-}
 
 //todo some tests are failing ?
 
@@ -399,102 +393,6 @@ describe('Testing POST /api/v1/politician/:politicianId/favorite', function(){
 
 
 
-describe('Testing POST /api/v1/politician/:politicianId/comment', function(){
-	var url = 'http://localhost:3001';
-
-	it('should return error if the user Id does not exist in DB', function(done){
-		request(url)
-			.post('/api/v1/politician/1/comment')
-			.set('Accept', 'application/json')
-			.set('UserId','10')
-			.end(function(err, res) {
-				assert.equal(err, null);
-				var body = res.body;
-//				console.log("res body: " + JSON.stringify(body));
-				//check everything works...
-				assert.equal(body.responseCode, 401);
-				done();
-			});
-	})
-
-	it('should return error if the user Id is not in header', function(done){
-		request(url)
-			.post('/api/v1/politician/1/comment')
-			.set('Accept', 'application/json')
-			.end(function(err, res) {
-				assert.equal(err, null);
-				var body = res.body;
-//				console.log("res body: " + JSON.stringify(body));
-				//check everything works...
-				assert.equal(body.responseCode, 401);
-				done();
-			});
-	})
-
-	it('should return error if the politician Id does not exist in DB', function(done){
-		request(url)
-			.post('/api/v1/politician/10/comment')
-			.set('Accept', 'application/json')
-			.set('UserId','1')
-			.end(function(err, res) {
-				assert.equal(err, null);
-				var body = res.body;
-//				console.log("res body: " + JSON.stringify(body));
-				//check everything works...
-				assert.equal(body.responseCode, 666);
-				done();
-			});
-	})
-
-	it('should return error if the body is empty', function(done){
-		request(url)
-			.post('/api/v1/politician/1/comment')
-			.set('Accept', 'application/json')
-			.set('UserId','1')
-			.end(function(err, res) {
-				assert.equal(err, null);
-				var body = res.body;
-//				console.log("res body: " + JSON.stringify(body));
-				//check everything works...
-				assert.equal(body.responseCode, 666);
-				done();
-			});
-	})
-
-	it('should return error if the body does not contain favoriteValue', function(done){
-		request(url)
-			.post('/api/v1/politician/1/comment')
-			.set('Accept', 'application/json')
-			.set('UserId','1')
-			.send(commentBadFormat)
-			.end(function(err, res) {
-				assert.equal(err, null);
-				var body = res.body;
-//				console.log("res body: " + JSON.stringify(body));
-				//check everything works...
-				assert.equal(body.responseCode, 666);
-				done();
-			});
-	})
-
-	it('should return 200 OK', function(done){
-		request(url)
-			.post('/api/v1/politician/1/comment')
-			.set('Accept', 'application/json')
-			.set('UserId','1')
-			.send(comment)
-			.end(function(err, res) {
-				assert.equal(err, null);
-				var body = res.body;
-				console.log("res body: " + JSON.stringify(body));
-				//check everything works...
-				assert.equal(body.responseCode, 200);
-				done();
-			});
-	})
-
-
-})
 
 //describe('TEST POST /api/v1/user', function(){
 //	var url = 'http://localhost:3001';
