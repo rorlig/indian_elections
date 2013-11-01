@@ -11,6 +11,7 @@ var PartyController = require('../app/controllers/PartyController');
 var StateController = require('../app/controllers/StateController');
 var PoliticianController =  require('../app/controllers/PoliticianController');
 
+var CommentController =  require('../app/controllers/CommentController');
 
 var AppLogger = require('../app/common/AppLogger');
 
@@ -27,6 +28,8 @@ module.exports = function (app,sequelize) {
 	var stateController = new StateController(app);
 	var politicianController = new PoliticianController(app);
 	var partyController  = new PartyController(app);
+	var commentController = new CommentController(app);
+
 	// get the user information...
 	app.get('/api/v1/user',
 		authenticationController.isAuthenticated,
@@ -79,19 +82,22 @@ module.exports = function (app,sequelize) {
 	/** comment on a politician  **/
 	app.post('/api/v1/politician/:politicianId/comment',
 		authenticationController.isAuthenticated,
+		politicianController.checkPoliticianId,
 		function(req,res){
 			AppLogger.log('info', 'POST /api/v1/politician/:politicianId/comment called');
-			politicianController.comment(req,res);
+			commentController.post(req,res);
 	})
 
 
 	/** comment on a politician  **/
-	app.get('/api/v1/politician/:politicianId/comment',
-		authenticationController.isAuthenticated,
+	app.get('/api/v1/politician/:politicianId/comment'
+		,politicianController.checkPoliticianId,
+
+//		authenticationController.isAuthenticated,
 		function(req,res){
 			AppLogger.log('info', 'GET /api/v1/politician/:politicianId/comment called');
-//			politicianController.comment(req,res);
-			res.send('TODO');
+			commentController.get(req,res);
+//			res.send('TODO');
 		})
 	/** get all the state **/
 	app.get('/api/v1/state', function(req,res){

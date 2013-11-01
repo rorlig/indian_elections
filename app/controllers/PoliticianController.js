@@ -418,37 +418,31 @@ var politician_controller = (function() {
 
 	}
 
-	//post the comments for a politician
-	PoliticianController.prototype.comment = function (req,res,next) {
-		AppLogger.info('PoliticianController:comment: ' + req.params.politicianId);
 
-		Politician.find({where: {id: req.params.politicianId}}).success(function(politician){
+	//checks if the pollId exists...
+	PoliticianController.prototype.checkPoliticianId = function(req, res, next){
 
-			if (req.body.commentText === undefined || req.body.commentText==""){
-				var response = responseUtils.get(666, "Comment Text missing in the Request Body", 'Error', false);
-				res.send(response);
-			} else {
-				Comment.create({commentText:req.body.commentText}).success(function(comment){
-//				   politician.setRating(rating);
-//				   req.user.setRating(rating);
-					comment.setPolitician(politician);
-					comment.setUser(req.user);
-//				   req.user.setPolitician(politician);
-					comment.save();
-				})
-				var response = responseUtils.get(200, politician, 'Politician', false);
-				AppLogger.info('PoliticianController created new comment politicianId:' + JSON.stringify(politician));
-				res.send(response);
-			}
+		var politicianId = req.params.politicianId;
+		AppLogger.info('PoliticianController:checkPoliticianId: ' + politicianId);
 
-		}).error(function(error){
-				AppLogger.info('Politician not found in db');
-				var response = responseUtils.get(666, 'Politician not found:' +JSON.stringify(error), 'Error', true);
+		if (politicianId === undefined || politicianId ==""){
+			var response = responseUtils.get(666, "politicianId missing in the req params", 'Error', false);
+			res.send(response);
+		}  else {
+			Politician.find({where: {id:politicianId}}).success(function(politician){
+			   if (politician == null){
+				   var response = responseUtils.get(666, "Politician not found", 'Error', false);
+				   res.send(response);
+			   }  else {
+				   next();
+			   }
+			}).error(function(error){
+				var response = responseUtils.get(666, "Politician not found", 'Error', false);
 				res.send(response);
 			})
+		}
 
 	}
-
 
 
 
