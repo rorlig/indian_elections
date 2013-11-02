@@ -7,6 +7,7 @@
 // controllers
 var UserController =  require('../app/controllers/UserController');
 var AuthenticationController = require('../app/controllers/AuthenticationController');
+var AuthorizationController =  require('../app/controllers/AuthorizationController');
 var PartyController = require('../app/controllers/PartyController');
 var StateController = require('../app/controllers/StateController');
 var PoliticianController =  require('../app/controllers/PoliticianController');
@@ -24,7 +25,7 @@ var express = require('express');
 module.exports = function (app,sequelize) {
 	var userController =  new UserController(app);
 	var authenticationController = new AuthenticationController(app);
-//	var authorizationController = new (require('../app/controllers/AuthorizationController'))();
+	var authorizationController = new AuthorizationController(app);
 	var stateController = new StateController(app);
 	var politicianController = new PoliticianController(app);
 	var partyController  = new PartyController(app);
@@ -79,7 +80,7 @@ module.exports = function (app,sequelize) {
 			politicianController.favorite(req,res);
 	});
 
-	/** comment on a politician  **/
+	/** post comment on a politician  **/
 	app.post('/api/v1/politician/:politicianId/comment',
 		authenticationController.isAuthenticated,
 		politicianController.checkPoliticianId,
@@ -89,16 +90,45 @@ module.exports = function (app,sequelize) {
 	})
 
 
-	/** comment on a politician  **/
+	/** get comment on a politician  **/
 	app.get('/api/v1/politician/:politicianId/comment'
 		,politicianController.checkPoliticianId,
+		function(req,res){
+			AppLogger.log('info', 'GET /api/v1/politician/:politicianId/comment called');
+			commentController.get(req,res);
+	})
+
+	/** delete a comment on a politician  **/
+	app.delete('/api/v1/politician/:politicianId/comment/:commentId'
+		,politicianController.checkPoliticianId //check if politician exists
+		,commentController.checkCommentId //check if the commentId exists
+		,authenticationController.isAuthenticated
+		,authorizationController.isCommentOwner //delete comment if you own it....
+		,
 
 //		authenticationController.isAuthenticated,
 		function(req,res){
 			AppLogger.log('info', 'GET /api/v1/politician/:politicianId/comment called');
 			commentController.get(req,res);
-//			res.send('TODO');
-		})
+		}
+	)
+
+
+	/** change a comment on a politician  **/
+	app.put('/api/v1/politician/:politicianId/comment/:commentId'
+		,politicianController.checkPoliticianId
+		,authenticationController.isAuthenticated
+		,authorizationController.isCommentOwner,
+
+
+		function(req,res){
+			AppLogger.log('info', 'GET /api/v1/politician/:politicianId/comment called');
+			commentController.get(req,res);
+		}
+	)
+
+
+
 	/** get all the state **/
 	app.get('/api/v1/state', function(req,res){
 		AppLogger.log('info', 'GET /api/v1/state called');

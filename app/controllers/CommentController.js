@@ -32,7 +32,7 @@ var comment_controller = (function() {
 	}
 
 
-	//get the comments for a politician  -- move to comment controller...
+	//get the comments for a politician
 	CommentController.prototype.get = function (req,res,next) {
 		AppLogger.info('CommentController get: ' + req.params.politicianId );
 
@@ -56,7 +56,7 @@ var comment_controller = (function() {
 	}
 
 
-	//post the comments for a politician  -- move to comment controller...
+	//post the comments for a politician
 	CommentController.prototype.post = function (req,res,next) {
 		AppLogger.info('CommentController post: ' + req.params.politicianId);
 
@@ -73,10 +73,11 @@ var comment_controller = (function() {
 					comment.setUser(req.user);
 //				   req.user.setPolitician(politician);
 					comment.save();
+					var response = responseUtils.get(200, comment, 'Commnet', false);
+					AppLogger.info('CommentController created new comment politicianId:' + JSON.stringify(politician));
+					res.send(response);
 				})
-				var response = responseUtils.get(200, politician, 'Politician', false);
-				AppLogger.info('PoliticianController created new comment politicianId:' + JSON.stringify(politician));
-				res.send(response);
+
 			}
 
 		}).error(function(error){
@@ -87,18 +88,62 @@ var comment_controller = (function() {
 
 	}
 
-
-//	//post the comments for a politician
-//	CommentController.prototype.post = function (req,res,next) {
-//	}
-
-
-
-	//post the comments for a politician  -- move to comment controller...
+	//delete the comments for a politician
 	CommentController.prototype.delete = function (req,res,next) {
+		AppLogger.info('CommentController delete comment for poll : ' + req.params.politicianId + ' with commentId:' + req.params.commentId);
+		AppLogger.info("comment is :" + JSON.stringify(comment));
+
+		var comment  = req.comment;
+		Comment.delete({where:{id:comment.id}}).success(function(){
+		  AppLogger.info('Deleted comment ' + comment.id + ' successfully');
+		  var response = responseUtils.get(200, 'Comment Deleted', 'Comment', false);
+		  res.send(response);
+		}).error(function(){
+		   AppLogger.info('Error deleting comment ');
+			var response = responseUtils.get(666, 'Comment not found:' + JSON.stringify(error), 'Error', true);
+			res.send(response);
+
+
+		});
+
+//		res.send('TODO');
+	}
+
+	//post the comments for a politician
+	CommentController.prototype.put = function (req,res,next) {
 		AppLogger.info('CommentController get: ' + req.params.politicianId);
 
 	}
+
+
+
+
+
+	//checks if the pollId exists...
+	CommentController.prototype.checkCommentId = function(req, res, next){
+
+		var commentId = req.params.commentId;
+		AppLogger.info('CommentController:commentId: ' + commentId);
+
+		if (commentId === undefined || commentId ==""){
+			var response = responseUtils.get(666, "commentId missing in the req params", 'Error', false);
+			res.send(response);
+		}  else {
+			Comment.find({where: {id:commentId}}).success(function(comment){
+				if (comment == null){
+					var response = responseUtils.get(666, "Comment not found", 'Error', false);
+					res.send(response);
+				}  else {
+					req.comment = comment;
+					next();
+				}
+			}).error(function(error){
+					var response = responseUtils.get(666, "Comment not found", 'Error', false);
+					res.send(response);
+				})
+		}
+	}
+
 
 
 

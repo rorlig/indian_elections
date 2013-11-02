@@ -175,11 +175,109 @@ describe('Testing POST /api/v1/politician/:politicianId/comment', function(){
 					console.log("res body: " + JSON.stringify(body));
 					//check everything works...
 					assert.equal(body.responseCode, 200);
-					done();
 				});
 		}
+		done();
+//
 		// now get it?
 	})
+
+})
+
+
+describe('Testing DELETE /api/v1/politician/:politicianId/comment/:commentId', function(){
+	var url = 'http://localhost:3001';
+
+	it('should return error if the user Id does not exist in DB', function(done){
+		request(url)
+			.del('/api/v1/politician/1/comment/1')
+			.set('Accept', 'application/json')
+			.set('UserId','10')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 401);
+				done();
+			});
+	})
+
+	it('should return error if the user Id is not in header', function(done){
+		request(url)
+			.del('/api/v1/politician/1/comment/1')
+			.set('Accept', 'application/json')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 401);
+				done();
+			});
+	})
+
+	it('should return error if the politician Id does not exist in DB', function(done){
+		request(url)
+			.del('/api/v1/politician/10/comment/1')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 666);
+				done();
+			});
+	})
+
+	it('should return error if the commentId does not exist in the DB ', function(done){
+		request(url)
+			.del('/api/v1/politician/1/comment/10000')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 666);
+				done();
+			});
+	})
+
+	it('should return error if the user trying to delete the message does not own the comment', function(done){
+		request(url)
+			.del('/api/v1/politician/1/comment/1')
+			.set('Accept', 'application/json')
+			.set('UserId','2')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 401);
+				done();
+			});
+	})
+
+	it('should return 200 OK if user owns the comment', function(done){
+		request(url)
+			.del('/api/v1/politician/1/comment/1')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 200);
+				done();
+			});
+	})
+
+
 
 })
 

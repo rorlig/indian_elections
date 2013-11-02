@@ -434,6 +434,7 @@ var politician_controller = (function() {
 				   var response = responseUtils.get(666, "Politician not found", 'Error', false);
 				   res.send(response);
 			   }  else {
+				   req.politician = politician;
 				   next();
 			   }
 			}).error(function(error){
