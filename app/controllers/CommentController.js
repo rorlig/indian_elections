@@ -10,6 +10,7 @@ var AppLogger = require('../common/AppLogger');
 var ResponseUtils  = require('../common/ResponseUtils');
 var responseUtils = new ResponseUtils();
 var Sequelize = require('sequelize');
+var moment = require('moment');
 
 
 
@@ -34,15 +35,30 @@ var comment_controller = (function() {
 
 	//get the comments for a politician
 	CommentController.prototype.get = function (req,res,next) {
-		AppLogger.info('CommentController get: ' + req.params.politicianId );
+		AppLogger.info('CommentController get: ' + req.params.politicianId);
+
+		var dateNow =  moment().format('YYYY-MM-DD HH:mm:ss');
+
+		AppLogger.info("dateNow: " + dateNow + " now: " + moment.utc().format('YYYY-MM-DD HH:mm:ss'));
+
+		var since;
+		if (req.query.since!=undefined){
+			since = new moment(parseInt(req.query.since,10)).utc().format('YYYY-MM-DD HH:mm:ss');
+
+		} else {
+			since = new moment(0);
+		}
+
+		AppLogger.info('since  ' + since);
 
 
 		var limit = req.query.limit!=undefined&&req.query.limit<=20?req.query.limit:20;
 		var offset =   req.query.offset!=undefined&&req.query.offset>=0?req.query.offset:0;
+//		var since = req.query.since!=undefined&&req.query.since<dateNow?req.query.since:-1;
 
-		AppLogger.info('limit:  ' + limit +  ' offset: '  + offset);
+		AppLogger.info('limit:  ' + limit +  ' offset: '  + offset+ "since:" + since);
 
-		Comment.findAll({where: {PoliticianId: req.params.politicianId}, offset: offset, limit: limit}).success(function(comments){
+		Comment.findAll({where: {PoliticianId: req.params.politicianId, updatedAt:{gt:since}}, offset: offset, limit: limit}).success(function(comments){
 			if (comments == null) comments = [];
 			var response = responseUtils.get(200, comments, 'Comment', false);
 			AppLogger.info('comments returned:' + JSON.stringify(comments));

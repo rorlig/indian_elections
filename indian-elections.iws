@@ -22,7 +22,7 @@
     <file path="/Comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382124558467" ignored="false" />
     <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383431681306" ignored="false" />
     <file path="/AuthenticationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383015145210" ignored="false" />
-    <file path="/CommentController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383452657548" ignored="false" />
+    <file path="/CommentController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383516027401" ignored="false" />
     <file path="/PoliticianController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383402885145" ignored="false" />
     <file path="/StateController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383029969341" ignored="false" />
     <file path="/AuthorizationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383431991595" ignored="false" />
@@ -348,7 +348,7 @@
       <file leaf-file-name="CommentController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/CommentController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="60" selection-start="4452" selection-end="4452" vertical-scroll-proportion="0.3325">
+            <state line="45" column="66" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-2.4">
               <folding />
             </state>
           </provider>
@@ -969,7 +969,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/CommentController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="60" selection-start="4452" selection-end="4452" vertical-scroll-proportion="0.3325">
+        <state line="45" column="66" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-2.4">
           <folding />
         </state>
       </provider>
