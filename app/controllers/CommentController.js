@@ -91,27 +91,57 @@ var comment_controller = (function() {
 	//delete the comments for a politician
 	CommentController.prototype.delete = function (req,res,next) {
 		AppLogger.info('CommentController delete comment for poll : ' + req.params.politicianId + ' with commentId:' + req.params.commentId);
-		AppLogger.info("comment is :" + JSON.stringify(comment));
+		AppLogger.info("comment is :" + JSON.stringify(req.comment));
 
 		var comment  = req.comment;
-		Comment.delete({where:{id:comment.id}}).success(function(){
-		  AppLogger.info('Deleted comment ' + comment.id + ' successfully');
-		  var response = responseUtils.get(200, 'Comment Deleted', 'Comment', false);
-		  res.send(response);
-		}).error(function(){
-		   AppLogger.info('Error deleting comment ');
-			var response = responseUtils.get(666, 'Comment not found:' + JSON.stringify(error), 'Error', true);
-			res.send(response);
+//		Comment.find(comment.id).success(function(comment){
+	        comment.destroy().success(function(u){
+		        AppLogger.info('Deleted comment ' + comment.id + ' successfully');
+		        var response = responseUtils.get(200, 'Comment Deleted', 'Comment', false);
+		        res.send(response);
+	        }).error(function(error){
+		        var response = responseUtils.get(666, 'Comment not deleted successfully:' + JSON.stringify(error), 'Error', true);
+		        res.send(response);
+			})
 
-
-		});
+//		}).error(function(){
+//		   AppLogger.info('Error deleting comment ');
+//			var response = responseUtils.get(666, 'Comment not found:' + JSON.stringify(error), 'Error', true);
+//			res.send(response);
+//
+//
+//		});
 
 //		res.send('TODO');
 	}
 
 	//post the comments for a politician
 	CommentController.prototype.put = function (req,res,next) {
-		AppLogger.info('CommentController get: ' + req.params.politicianId);
+		var comment = req.comment;
+		AppLogger.info('CommentController put: ' + req.params.politicianId);
+		if (req.body.commentText === undefined || req.body.commentText==""){
+			var response = responseUtils.get(666, "Comment Text missing in the Request Body", 'Error', false);
+			res.send(response);
+		}
+
+//		Comment.find(comment.id).success(function(comment){
+			comment.updateAttributes({commentText: req.body.commentText})
+				.success(function(u){
+				AppLogger.info('updated comment ' + comment.id + ' successfully');
+				var response = responseUtils.get(200, 'Comment Updated', 'Comment', false);
+				res.send(response);
+			}).error(function(error){
+					var response = responseUtils.get(666, 'Comment not updated successfully:' + JSON.stringify(error), 'Error', true);
+					res.send(response);
+				})
+
+//		}).error(function(){
+//				AppLogger.info('Error deleting comment ');
+//				var response = responseUtils.get(666, 'Comment not found:' + JSON.stringify(error), 'Error', true);
+//				res.send(response);
+//
+//
+//		});
 
 	}
 

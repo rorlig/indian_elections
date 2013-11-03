@@ -57,6 +57,11 @@ var comment = {
 	commentText: "This is a test comment"
 }
 
+
+var commentNewText = {
+	commentText: "This an updated test comment"
+}
+
 //todo some tests are failing ?
 
 
@@ -172,7 +177,7 @@ describe('Testing POST /api/v1/politician/:politicianId/comment', function(){
 				.end(function(err, res) {
 					assert.equal(err, null);
 					var body = res.body;
-					console.log("res body: " + JSON.stringify(body));
+//					console.log("res body: " + JSON.stringify(body));
 					//check everything works...
 					assert.equal(body.responseCode, 200);
 				});
@@ -277,6 +282,134 @@ describe('Testing DELETE /api/v1/politician/:politicianId/comment/:commentId', f
 			});
 	})
 
+
+
+})
+
+
+describe('Testing PUT /api/v1/politician/:politicianId/comment/:commentId', function(){
+	var url = 'http://localhost:3001';
+
+	it('should return error if the user Id does not exist in DB', function(done){
+		request(url)
+			.put('/api/v1/politician/1/comment/2')
+			.set('Accept', 'application/json')
+			.set('UserId','10')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 401);
+				done();
+			});
+	})
+
+	it('should return error if the user Id is not in header', function(done){
+		request(url)
+			.put('/api/v1/politician/1/comment/2')
+			.set('Accept', 'application/json')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 401);
+				done();
+			});
+	})
+
+	it('should return error if the politician Id does not exist in DB', function(done){
+		request(url)
+			.put('/api/v1/politician/10/comment/2')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 666);
+				done();
+			});
+	})
+
+	it('should return error if the commentId does not exist in the DB ', function(done){
+		request(url)
+			.put('/api/v1/politician/1/comment/10000')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 666);
+				done();
+			});
+	})
+
+	it('should return error if the user trying to change the message does not own the comment', function(done){
+		request(url)
+			.put('/api/v1/politician/1/comment/2')
+			.set('Accept', 'application/json')
+			.set('UserId','2')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+//				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 401);
+				done();
+			});
+	})
+
+	it('should return error if the body does not contain new text in correct format or is blank - test I', function(done){
+		request(url)
+			.put('/api/v1/politician/1/comment/2')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 666);
+				done();
+			});
+	})
+
+	it('should return error if the body does not contain new text in correct format or is blank - test II', function(done){
+		request(url)
+			.put('/api/v1/politician/1/comment/2')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.send(commentBadFormat)
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 666);
+				done();
+			});
+	})
+
+	it('should return ok if the body contains new text', function(done){
+		request(url)
+			.put('/api/v1/politician/1/comment/2')
+			.set('Accept', 'application/json')
+			.set('UserId','1')
+			.send(commentNewText)
+			.end(function(err, res) {
+				assert.equal(err, null);
+				var body = res.body;
+				console.log("res body: " + JSON.stringify(body));
+				//check everything works...
+				assert.equal(body.responseCode, 200);
+				done();
+			});
+	})
 
 
 })

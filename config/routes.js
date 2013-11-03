@@ -108,8 +108,8 @@ module.exports = function (app,sequelize) {
 
 //		authenticationController.isAuthenticated,
 		function(req,res){
-			AppLogger.log('info', 'GET /api/v1/politician/:politicianId/comment called');
-			commentController.get(req,res);
+			AppLogger.log('info', 'DELETE /api/v1/politician/:politicianId/comment called');
+			commentController.delete(req,res);
 		}
 	)
 
@@ -117,13 +117,14 @@ module.exports = function (app,sequelize) {
 	/** change a comment on a politician  **/
 	app.put('/api/v1/politician/:politicianId/comment/:commentId'
 		,politicianController.checkPoliticianId
+		,commentController.checkCommentId
 		,authenticationController.isAuthenticated
 		,authorizationController.isCommentOwner,
 
 
 		function(req,res){
 			AppLogger.log('info', 'GET /api/v1/politician/:politicianId/comment called');
-			commentController.get(req,res);
+			commentController.put(req,res);
 		}
 	)
 

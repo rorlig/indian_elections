@@ -20,12 +20,12 @@
     <file path="/DBHelper.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382079429827" ignored="false" />
     <file path="/a.dummy" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383261338164" ignored="false" />
     <file path="/Comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382124558467" ignored="false" />
-    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383402252895" ignored="false" />
+    <file path="/routes.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383431681306" ignored="false" />
     <file path="/AuthenticationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383015145210" ignored="false" />
-    <file path="/CommentController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383404532384" ignored="false" />
+    <file path="/CommentController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383452657548" ignored="false" />
     <file path="/PoliticianController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383402885145" ignored="false" />
     <file path="/StateController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383029969341" ignored="false" />
-    <file path="/AuthorizationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383403127929" ignored="false" />
+    <file path="/AuthorizationController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383431991595" ignored="false" />
     <file path="/models.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382586453109" ignored="false" />
     <file path="/user.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382982711371" ignored="false" />
     <file path="/UserController.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1382734931768" ignored="false" />
@@ -260,14 +260,13 @@
     <file path="/api-docs.json.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383067685456" ignored="false" />
     <file path="/swaggerResources.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383068584826" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
-    <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query-generator.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/query-generator.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/connector-manager.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query-generator.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-interface.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-generator.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383198034140" ignored="false" />
-    <file path="/comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383430687746" ignored="false" />
+    <file path="/comment.js" changelist="73d025dd-b8f3-46d7-8963-5317e7bc4a57" time="1383431613168" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,10 +345,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentController.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CommentController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/CommentController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="42" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.0">
+            <state line="127" column="60" selection-start="4452" selection-end="4452" vertical-scroll-proportion="0.3325">
               <folding />
             </state>
           </provider>
@@ -367,7 +366,7 @@
       <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="47" selection-start="3231" selection-end="3248" vertical-scroll-proportion="0.0">
+            <state line="119" column="41" selection-start="3853" selection-end="3853" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -376,7 +375,7 @@
       <file leaf-file-name="AuthorizationController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/AuthorizationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="29" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
+            <state line="39" column="38" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -391,10 +390,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="comment.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/comment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="48" selection-start="6443" selection-end="6443" vertical-scroll-proportion="0.5294118">
+            <state line="60" column="4" selection-start="726" selection-end="726" vertical-scroll-proportion="-4.769231">
               <folding />
             </state>
           </provider>
@@ -444,11 +443,11 @@
         <option value="$PROJECT_DIR$/app/models/Politician.js" />
         <option value="$PROJECT_DIR$/app/models/index.js" />
         <option value="$PROJECT_DIR$/test/politician.js" />
-        <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/app/controllers/PoliticianController.js" />
         <option value="$PROJECT_DIR$/app/controllers/AuthorizationController.js" />
-        <option value="$PROJECT_DIR$/app/controllers/CommentController.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
         <option value="$PROJECT_DIR$/test/comment.js" />
+        <option value="$PROJECT_DIR$/app/controllers/CommentController.js" />
       </list>
     </option>
   </component>
@@ -914,30 +913,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="47" selection-start="3231" selection-end="3248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="47" selection-start="14983" selection-end="14983" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/AuthenticationController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="37" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AuthorizationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="29" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -961,16 +939,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/CommentController.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/PoliticianController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="42" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.0">
+        <state line="436" column="47" selection-start="14983" selection-end="14983" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthorizationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="38" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="41" selection-start="3853" selection-end="3853" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/comment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="48" selection-start="6443" selection-end="6443" vertical-scroll-proportion="0.5294118">
+        <state line="60" column="4" selection-start="726" selection-end="726" vertical-scroll-proportion="-4.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CommentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="60" selection-start="4452" selection-end="4452" vertical-scroll-proportion="0.3325">
           <folding />
         </state>
       </provider>

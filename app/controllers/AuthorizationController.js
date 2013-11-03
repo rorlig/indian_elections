@@ -36,6 +36,7 @@ var authorization_controller = (function() {
 	//roles are checkedInUser or notCheckedInUser
 	AuthorizationController.prototype.isCommentOwner = function (req,res,next) {
 		//todo
+		AppLogger.info("user is :"  + JSON.stringify(req.user) + " comment is : " + JSON.stringify(req.comment));
 		if (req.user.id == req.comment.UserId){
 			AppLogger.info('User is the creator of the comment');
 			next();
