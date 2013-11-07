@@ -3,7 +3,7 @@
 //var Sequelize = require("../common/DBHelper");
 //var Politician = require("./Politician")
 //var User = require("./User")
-var Sequelize = require("Sequelize");
+var Sequelize = require("sequelize");
 
 
 module.exports = function (sequelize) {
